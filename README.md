@@ -4,4 +4,4 @@
 * [Team Structure and Planning Excel](https://docs.google.com/spreadsheets/d/1cEJQlFki3ymdUTRwEBbQDcUdAIUed592hiqDsdFRrQ0/edit?usp=sharing)
 * [Team Structure and Planning Documentation](https://docs.google.com/document/d/1ouhJbn_nc6Yyi8X3EvN3WyT4WNKSTf4paY4keIwIDME/edit?usp=sharing)
 * [Risk Analysis]()
-* [User Interface Design]()
+* [User Interface Design](https://docs.google.com/document/d/1QDToYyaeqLTdVpkmZtNAWw_MWG5a_u6c2Z9kwnWrwKI/edit?usp=sharing)
