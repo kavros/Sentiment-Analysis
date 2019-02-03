@@ -5,3 +5,7 @@
 * [Team Structure and Planning Documentation](https://docs.google.com/document/d/1ouhJbn_nc6Yyi8X3EvN3WyT4WNKSTf4paY4keIwIDME/edit?usp=sharing)
 * [Risk Analysis](https://docs.google.com/document/d/11zV_r6II-NUeqCdDrP0cZHHb8t_aZNyOYmYCP7ATwYs/edit#heading=h.ekt7cjy9xwzv)
 * [User Interface Design](https://docs.google.com/document/d/1QDToYyaeqLTdVpkmZtNAWw_MWG5a_u6c2Z9kwnWrwKI/edit?usp=sharing)
+
+Additional readings:
+* [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
+* [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
