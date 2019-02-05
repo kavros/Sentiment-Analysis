@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	backgroundColor: "#DDDDDD",
+	animationEnabled: true,
+	title:{
+		text: "Twitter Sentiment Analysis"
+	},
+	axisX: {
+		title: "Time"
+		
+	},
+	axisY: {
+		title: "Sentiment"
+	},
+	legend:{
+		horizontalAlign: "left"
+	},
+	data: [{
+		type: "bubble",
+		xValueFormatString: "#0.0",
+		yValueFormatString: "#,#0.0",
+		zValueFormatString: "#,#0.0",
+		legendMarkerType: "circle",
+		legendMarkerColor: "grey",
+		toolTipContent: "<b>{name}</b><br/>Life Exp: {x} yrs<br/> Fertility Rate: {y}<br/> Population: {z}mn",
+		dataPoints: [
+			{ x: 5, y: 16.5, z: 78.74, name: "Turkey",color:"black" },
+			{ x: 7, y: 11.2, z: 5.2, name: "Norway" },
+			{ x: 8, y: 8.7, z: 46.44, name: "??Any ideas?" },
+			{ x: 9, y: 10.8, z: 11.31, name: "Belgium" },
+			
+			{ x: 10, y: 10, z: 200.5, z: "Czech Republic" },
+			
+			
+			
+			{ x: 11, y: 8.6, z: 10.7, name: "Greece" },
+			
+			{ x: 12, y: 9, z: 4.19, name: "Croatia" },
+			
+			{ x: 13, y: -9.6, z: 1.76, name: "Romania" },
+			{ x: 15, y: 9.1, z: 7.15, name: "Bulgaria" }
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body bgcolor="#E6E6FA">
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

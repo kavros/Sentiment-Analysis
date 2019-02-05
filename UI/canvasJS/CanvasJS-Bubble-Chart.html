@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script type="text/javascript">
+window.onload = function() {
+
+var options =  {
+	//backgroundColor: "#DDDDDD",
+	animationEnabled: true,
+	zoomEnabled: true,
+	theme: "light2",
+	title: {
+		text: ""
+	},
+	subtitles: [{
+		text: "",
+		fontSize: 15
+	}],
+	axisX: {
+		title: "Month"
+	},
+	axisY: {
+		title: "Average Sentiment Value"
+	},
+	data: [{
+		type: "bubble",
+		xValueFormatString: "#,#0",
+		yValueFormatString: "#,#0.0",
+		zValueFormatString: "#,#0.0",
+		toolTipContent: "<b>{name}</b><br/>Month: August <br/> Average Sentiment value: {y}<br/> Population: {z}",
+		dataPoints: [
+			{ x: 1, y: 9.1, z: 7.15, name: "Bulgaria",color:"#00cd00" },
+			{ x: 2, y: 9.1, z: 7.15, name: "Bulgaria",color:"#00cd00" },
+			{ x: 3, y: -9.2, z: 1.76, name: "Romania",color:"#92A1CF" },
+			{ x: 4, y: 9.1, z: 7.15, name: "Bulgaria",color:"#00cd00" },
+			{ x: 5, y: 15.5, z: 78.74, name: "Turkey",color:"#008100 " },
+			{ x: 7, y: 11.2, z: 5.2, name: "Norway",color:"#00cd00" },
+			{ x: 6, y: 11.2, z: 5.2, name: "Norway",color:"#00cd00" },
+			{ x: 8, y: 4.7, z: 46.44, name: "#Obama",color:"#2A52BE"},
+			{ x: 9, y: 10.8, z: 11.31, name: "Belgium",color:"#00cd00" },
+			{ x: 10, y: 8.8, z: 21.31, name: "Belgium",color:"#00cd00" },
+			
+			
+			
+			
+			{ x: 11, y: 8.6, z: 10.7, name: "Greece",color:"#00cd00" },
+			
+			{ x: 12, y: 9, z: 4.19, name: "Croatia",color:"#00cd00" }
+			
+			
+			
+			
+		]
+	}]
+};
+$("#chartContainer").CanvasJSChart(options);
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+</html> 
+
+
