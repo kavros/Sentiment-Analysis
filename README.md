@@ -6,6 +6,9 @@
 * [Risk Analysis](https://docs.google.com/document/d/11zV_r6II-NUeqCdDrP0cZHHb8t_aZNyOYmYCP7ATwYs/edit#heading=h.ekt7cjy9xwzv)
 * [User Interface Design](https://docs.google.com/document/d/1QDToYyaeqLTdVpkmZtNAWw_MWG5a_u6c2Z9kwnWrwKI/edit?usp=sharing)
 
-Additional readings:
+# Additional readings:
 * [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
+
+# Overleaf
+* [Latex document](https://www.overleaf.com/4929713254rzkyjvnktgdb)
