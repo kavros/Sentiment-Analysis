@@ -1,0 +1,37 @@
+.navigation{
+    background-color:#334752;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#navigation,.navbar .navbar-default{
+    background-color:#334752;
+}
+
+
+.navbar .navbar-default{
+    max-height: 50px;
+}
+.navbar-header{
+    max-height: 50px;
+}
+.navbar-default .navbar-nav>li>a.navItem{
+    font-family: Arial;
+    font-size: 14px;
+    color:white;
+}
+
+
+.navbar-default .navbar-nav>li>a.navItem:hover{
+    color:#00ffff;
+}
+
+.navbar-default .navbar-nav>li>a.navItem.active{
+    background-color:#455f6e;
+}
+@media screen and (width: 320px){
+   .navbar-default .navbar-nav>li>a.navItem.active{
+        background-color:transparent;
+    }
+}
