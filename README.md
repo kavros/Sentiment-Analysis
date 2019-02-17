@@ -1,4 +1,8 @@
-# Phase 1 Google Document Links
+
+
+# Links
+* [Report for phase 1](https://www.overleaf.com/4929713254rzkyjvnktgdb)
+* [Report for phase 2](https://www.overleaf.com/3532464358bmcfyfmdfmxk)
 * [Requirements Engineering](https://docs.google.com/document/d/1_QbKIdNie3GJXQ5infMYwywUUHN1iwhhs_OY7EZsgTk/edit)
 * [System Design](https://docs.google.com/document/d/1N8sC62DxqVeOEFTCOtHlnEWvM12VgvBTN8HmOk2m9GE/edit?usp=sharing)
 * [Team Structure and Planning Excel - old](https://docs.google.com/spreadsheets/d/1cEJQlFki3ymdUTRwEBbQDcUdAIUed592hiqDsdFRrQ0/edit?usp=sharing)
@@ -11,5 +15,3 @@
 * [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
 
-# Overleaf
-* [Latex document](https://www.overleaf.com/4929713254rzkyjvnktgdb)
