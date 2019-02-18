@@ -1,32 +1,34 @@
-.navigation{
+.navigation
+{
     background-color:#334752;
     height: 50px;
     width: 100%;
     margin-bottom: 30px;
 }
 
-#navigation,.navbar .navbar-default{
+#navigation,.navbar .navbar-default
+{
     background-color:#334752;
 }
 
-
-.navbar .navbar-default{
-    max-height: 50px;
-}
-.navbar-header{
-    max-height: 50px;
-}
-.navbar-default .navbar-nav>li>a.navItem{
+.navbar-default .navbar-nav>li>a.navItem
+{
     font-family: Arial;
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: bold;
     color:white;
 }
-
 
 .navbar-default .navbar-nav>li>a.navItem:hover{
     color:#00ffff;
 }
 
+
+.navbar-default .navbar-brand
+{
+    font-weight: bold;
+    color:white;
+}
 .navbar-default .navbar-nav>li>a.navItem.active{
     background-color:#455f6e;
 }
@@ -35,3 +37,4 @@
         background-color:transparent;
     }
 }
+
