@@ -1,3 +1,4 @@
+/* navigation bar */
 .navigation
 {
     background-color:#334752;
@@ -14,7 +15,7 @@
 .navbar-default .navbar-nav>li>a.navItem
 {
     font-family: Arial;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color:white;
 }
@@ -26,6 +27,7 @@
 
 .navbar-default .navbar-brand
 {
+    font-size: 20px;
     font-weight: bold;
     color:white;
 }
@@ -38,3 +40,55 @@
     }
 }
 
+/*footer */
+.footer{
+    background-color:#334752;
+    /*margin-top:40px;*/
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    padding-bottom: 30px;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+
+    position: fixed;
+    bottom: 0;
+    
+    
+}
+
+.social-icons{
+    font-size:24px;
+    margin-top: -8px;
+    padding-left: 60px;
+}
+
+
+.footer-phone{
+
+    margin-top: -10px;
+    padding-right: 15px;
+}
+
+/*Search bar*/
+.searchBar{
+    padding-top: 15px;
+    background-color: #334752;
+    margin-bottom: 20px;
+    /*height:100px;*/
+    text-align: center;
+}
+
+#exTab1 .tab-content {
+  color : white;
+  background-color: #334752;
+  /*padding : 5px 15px;*/
+}
+
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+}
