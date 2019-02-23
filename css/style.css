@@ -14,7 +14,7 @@
 
 .navbar-default .navbar-nav>li>a.navItem
 {
-    font-family: Arial;
+    font-family: Open Sans;
     font-size: 20px;
     font-weight: bold;
     color:white;
@@ -32,7 +32,7 @@
     color:white;
 }
 .navbar-default .navbar-nav>li>a.navItem.active{
-    background-color:#455f6e;
+    background-color:#E7E7E7;
 }
 @media screen and (width: 320px){
    .navbar-default .navbar-nav>li>a.navItem.active{
@@ -49,12 +49,12 @@
     padding-left: 10px;
     
     padding-bottom: 30px;
-    font-family: Arial;
-    font-size: 12px;
+    font-family: Open Sans;
+    font-size: 15px;
     font-weight: bold;
     color:white;
 
-    position: fixed;
+    position: absolute;
     bottom: 0;
     
     
@@ -74,21 +74,29 @@
 }
 
 /*Search bar*/
-.searchBar{
-    padding-top: 15px;
-    background-color: #334752;
-    margin-bottom: 20px;
-    /*height:100px;*/
-    text-align: center;
-}
 
 #exTab1 .tab-content {
   color : white;
+  font-family:Open Sans;
   background-color: #334752;
-  /*padding : 5px 15px;*/
 }
 
 
 #exTab1 .nav-pills > li > a {
   border-radius: 0;
+  background-color: #455F6e;
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:Open Sans;
+
+}
+
+#exTab1 .nav-pills .active > a {
+    background-color: #334752;
+}
+.btn-info
+{
+      background-image: linear-gradient(to bottom, #334752 0%, #455F6e 51%, #999999 100%);
+
 }
