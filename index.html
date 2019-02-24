@@ -24,8 +24,8 @@
 		<div class="container">
 			
 			<!--Start of the Navigation Bar -->	
-			<div class="row">
-			    <div class="col">
+			<div class="row col-md-12">
+			    
 				
 					<nav class="navbar navbar-default" id = "navigation">
 						<div class="container-fluid">
@@ -45,13 +45,13 @@
 						</div>
 					</nav>
 					
-				</div>
+				
 			</div>
 			<!--End of the Navigation Bar -->	
 
 			<!-- Start of Search -->
-			<div class="row">
-		    	<div class="col">
+			<div class="row col-md-12">
+		    	
 					<div id="exTab1">	
 					    <ul  class="nav nav-pills">
 							<li class="active"><a  href="#1a" data-toggle="tab" >Simple</a></li>
@@ -61,93 +61,103 @@
 						<div class="tab-content clearfix">
 							<div class="tab-pane active" id="1a">
 					          	<!-- start of simeple search -->
-					          	<div class="form-group col-xs-12">
-									<label for="usr">keyword*:</label>
-									<form class="form-inline" >
-										<div class="form-group" >
-											<input class="form-control" size="100%">
+					          	<div class="form-group row col-xs-12 col-md-12">
+									<div class="row col-md-12 col-xs-12 ">
+										<div class="col-md-11 col-xs-11">
+											<label>keyword*:</label>
+	    									<input class="form-control" id="ex1" type="text">
 										</div>
-										<div class="form-group">
-											<div class="input-bar-item">
-												<button class="btn btn-info">Search</button>
-											</div>
+
+										<div class="col-md-1 col-xs-1">
+											<label></label>
+											<button class="btn btn-info">Search</button> 
 										</div>
-									</form>
-									<label for="usr">* required field</label>
+									</div>
+
+									<div class="row col-md-12 col-xs-12">
+										<div class="col-xs-12 col-md-12">
+											<label>*required field</label>
+										</div>
+									</div>
 								</div>
 								<!--end of simple search-->
 							</div>
+
+
 							<div class="tab-pane" id="2a">
 					         	<!-- start of advanced search -->
-					         	<div class="form-group col-md-12">
-									<div class="row col-xs-12 col-md-12">
-										<label for="usr">keyword*:</label>
-									</div>
-									<form class="form-inline" >
-										
-										<div class="form-group " >			<!-- keyword input -->									        
-											<input class="form-control" >
+					         	<div class="form-group row col-xs-12 col-md-12">
+									<div class="row col-md-12 col-xs-12">
+										<div class="col-md-5 col-xs-12">
+											<label>keyword*:</label>
+	    									<input class="form-control" id="ex1" type="text">
 										</div>
-
-										<div class="form-group" >			<!--location input-->
+										
+										<div class="col-md-2 col-xs-12">
+											<label>location:</label>
 											<input class="form-control">
 										</div>
-										
-										<div class="form-group">								<!-- start date -->
-										<div class='input-group date' id='datetimepicker1'>
-										  <input type='text' class="form-control" />
-										  <span class="input-group-addon">
-										    <span class="glyphicon glyphicon-calendar"></span>
-										  </span>
-										</div>
-										</div>
 
-
-										<div class="form-group">								<!-- end date -->
-										<div class='input-group date' id='datetimepicker2'>
-										  <input type='text' class="form-control" />
-										  <span class="input-group-addon">
-										    <span class="glyphicon glyphicon-calendar"></span>
-										  </span>
-										</div>
-										</div>
-
-
-
-										<div class="form-group">				<!-- search  button-->
-											<div class="input-bar-item">
-												<button class="btn btn-info">Search</button>
+										<div class="col-md-2 col-xs-6">
+											<label>start date:</label>
+											<div class='input-group date' id='datetimepicker1'>
+											  <input type='text' class="form-control" />
+											  <span class="input-group-addon">
+											  	<span class="glyphicon glyphicon-calendar"></span>
+											  </span>
 											</div>
 										</div>
 
-									</form>
-									<label for="usr">* required field</label>
+										<div class="col-md-2 col-xs-6">
+											<label>end date:</label>
+											<div class='input-group date' id='datetimepicker2'>
+										  		<input type='text' class="form-control" />
+										 	 	<span class="input-group-addon">
+										    		<span class="glyphicon glyphicon-calendar"></span>
+										  		</span>
+											</div>
+										</div>
+									
+
+										<div class="col-md-1 col-xs-12 ">
+											<label>   </label>
+											<button class="btn btn-info">Search</button> 
+										</div>
+									</div>
+
+									<div class="row col-md-12 col-xs-12">
+										<div class="col-xs-12 col-md-12">
+											<label>*required field</label>
+										</div>
+									</div>
+
+									
 								</div>
 								<!--end of advanced search -->
 							</div>
 
 				      	</div>
 				  	</div>
-				</div>
+				
 			</div>
 			 <!-- End of search -->
 
 			<!--Start of the Footer -->						
 			<div class="row">			
 				<footer class="footer navbar-fixed-bottom">
-					<div class="col">		
-						<div class="col-md-3">
-							<i class="fa fa-phone" > </i> 
-							<i >+44 0131 656 0798</i>
-						</div>
-						<div class="col-md-3">@ sentiment-analysis@gmail.com</div>
-						<div class="col-md-3 social-icons">
-							<i class="fa fa-facebook"></i>
-							<i class="fa fa-twitter" ></i>
-							<i class="fa fa-google-plus" ></i>
-						</div>
-						<div class="col-md-3">Sentiment analysis 2019 © - All rights reserved.</div>								
+					<div class="col-md-3 col-xs-6">
+						<i class="fa fa-phone" > </i> 
+						<i >+44 0131 656 0798</i>
 					</div>
+					<div class="col-md-3 col-xs-6 social-icons">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-twitter" ></i>
+						<i class="fa fa-google-plus" ></i>
+					</div>
+					<div class="col-md-3 col-xs-12">@ sentiment-analysis@gmail.com</div>
+					
+					<div class="col-md-3 col-xs-12">Sentiment analysis 2019 © - All rights reserved.</div>								
+				
 
 				</footer>					
 			</div>
