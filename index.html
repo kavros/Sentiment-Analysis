@@ -8,6 +8,16 @@
 
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 	    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/js/bootstrap-datetimepicker.min.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.7.14/css/bootstrap-datetimepicker.min.css">
+<script type="text/javascript" src="js/date.js"></script>
+
 	    <title>Sentiment Analysis</title>
   	</head>
 	<body>
@@ -44,16 +54,14 @@
 		    	<div class="col">
 					<div id="exTab1">	
 					    <ul  class="nav nav-pills">
-					    	<!--style="background-color:#334752"-->
 							<li class="active"><a  href="#1a" data-toggle="tab" >Simple</a></li>
-							<li><a href="#2a" data-toggle="tab">Advanced</a></li>
+							<li ><a href="#2a" data-toggle="tab">Advanced</a></li>
 						</ul>
 
 						<div class="tab-content clearfix">
 							<div class="tab-pane active" id="1a">
-					          	
+					          	<!-- start of simeple search -->
 					          	<div class="form-group col-xs-12">
-
 									<label for="usr">keyword*:</label>
 									<form class="form-inline" >
 										<div class="form-group" >
@@ -66,12 +74,56 @@
 										</div>
 									</form>
 									<label for="usr">* required field</label>
-		  							
 								</div>
-
+								<!--end of simple search-->
 							</div>
 							<div class="tab-pane" id="2a">
-					         	<h3>Advanced</h3>
+					         	<!-- start of advanced search -->
+					         	<div class="form-group col-md-12">
+									<div class="row col-xs-12 col-md-12">
+										<label for="usr">keyword*:</label>
+									</div>
+									<form class="form-inline" >
+										
+										<div class="form-group " >			<!-- keyword input -->									        
+											<input class="form-control" >
+										</div>
+
+										<div class="form-group" >			<!--location input-->
+											<input class="form-control">
+										</div>
+										
+										<div class="form-group">								<!-- start date -->
+										<div class='input-group date' id='datetimepicker1'>
+										  <input type='text' class="form-control" />
+										  <span class="input-group-addon">
+										    <span class="glyphicon glyphicon-calendar"></span>
+										  </span>
+										</div>
+										</div>
+
+
+										<div class="form-group">								<!-- end date -->
+										<div class='input-group date' id='datetimepicker2'>
+										  <input type='text' class="form-control" />
+										  <span class="input-group-addon">
+										    <span class="glyphicon glyphicon-calendar"></span>
+										  </span>
+										</div>
+										</div>
+
+
+
+										<div class="form-group">				<!-- search  button-->
+											<div class="input-bar-item">
+												<button class="btn btn-info">Search</button>
+											</div>
+										</div>
+
+									</form>
+									<label for="usr">* required field</label>
+								</div>
+								<!--end of advanced search -->
 							</div>
 
 				      	</div>

@@ -76,11 +76,13 @@
 /*Search bar*/
 
 #exTab1 .tab-content {
-  color : white;
+  /*color : white;*/
   font-family:Open Sans;
   background-color: #334752;
 }
-
+label{
+    color: white;
+}
 
 #exTab1 .nav-pills > li > a {
   border-radius: 0;
@@ -95,8 +97,9 @@
 #exTab1 .nav-pills .active > a {
     background-color: #334752;
 }
+
 .btn-info
 {
-      background-image: linear-gradient(to bottom, #334752 0%, #455F6e 51%, #999999 100%);
-
+    background-image: linear-gradient(to bottom, #334752 0%, #455F6e 51%, #999999 100%);
+    width: 100px !important;
 }
