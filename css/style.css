@@ -105,7 +105,8 @@ label{
     font-weight: bold;
 }
 
-@media (min-width: 576px) {
+/*configure spaces between input for desktop*/
+@media (min-width: 990px) {
   .padding-dates{
     padding-right:0.4px;
     padding-left:3px;
@@ -121,4 +122,15 @@ label{
     padding-top:29px;
   }
 
+}
+
+/*configure search button for mobile*/
+@media (max-width: 990px) {
+  .mobile-search-button-simple{
+    margin-top: 29px;
+  } 
+  .mobile-search-button-advanced{
+    margin-top: 10px;
+    width: 100% !important;
+  } 
 }
