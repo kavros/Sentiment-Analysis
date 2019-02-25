@@ -76,12 +76,13 @@
 /*Search bar*/
 
 #exTab1 .tab-content {
-  /*color : white;*/
   font-family:Open Sans;
   background-color: #334752;
 }
 label{
     color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
 }
 
 #exTab1 .nav-pills > li > a {
@@ -101,4 +102,23 @@ label{
 .btn-info
 {
     background-image: linear-gradient(to bottom, #334752 0%, #455F6e 51%, #999999 100%);
+    font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .padding-dates{
+    padding-right:0.4px;
+    padding-left:3px;
+  }
+  .padding-location{
+    padding-right:0.4px;
+    padding-left: 1px; 
+  }
+  .padding-keyword{
+    padding-right: 3px;  
+  }
+  .padding-search{
+    padding-top:29px;
+  }
+
 }
