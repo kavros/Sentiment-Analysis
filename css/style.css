@@ -135,11 +135,41 @@ label{
   } 
 }
 
-
+/*graph*/
 .row-m-t{
   margin-top : 20px
 }
 
-.hidden{
-  display: none;
+.axis1{
+  background-color: #334752;
+  height: 10px;
+}
+
+.axis2{
+  background-color: black;
+  height: 10px;
+}
+
+#mainGraph .tab-content {
+  font-family:Open Sans;
+  background-color: #334752;
+}
+label{
+    color: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+#mainGraph .nav-pills > li > a {
+  border-radius: 0;
+  background-color: #455F6e;
+  color:white;
+  font-weight: bold;
+  font-size: 15px;
+  font-family:Open Sans;
+
+}
+
+#mainGraph .nav-pills .active > a {
+    background-color: #334752;
 }
