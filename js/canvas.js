@@ -44,3 +44,37 @@ window.onload = function() {
 	};
 $("#chartContainer").CanvasJSChart(options);
 }
+
+//resize functionality
+$(function() {
+	$('#resize').click(function()
+  	{
+  		
+  		if($('#axis1').hasClass("axis1 col-md-1 hidden-xs")){
+			$('#axis1').removeClass("axis1 col-md-1 hidden-xs");	
+			$('#axis2').removeClass("axis2 col-md-1 hidden-xs");
+			$('#confidenceImg').remove();
+			$('#label0').remove();
+			$('#label1').remove();
+			$('#label2').remove();
+			$('#label3').remove();
+			
+			$('#happinessImg').remove();
+			console.log("Hello world!"); 
+			$('#mainGraph').removeClass("col-md-10 col-xs-12").addClass("col-md-12 col-xs-12");
+		}else{
+
+			$('#axis1').addClass("axis1 col-md-1 hidden-xs");
+			$('#axis1').append('<label id="label0">Happy</label>');
+			$('#axis1').append('<img src="images/happinessAxis.png" id="happinessImg">');
+			$('#axis1').append('<label id="label1">Unhappy</label>');
+
+
+			$('#axis2').addClass("axis2 col-md-1 hidden-xs");
+			$('#axis2').append('<label id="label2">High confidence</label>');
+			$('#axis2').append('<img src="images/confidence.png" id="confidenceImg">')
+			$('#axis2').append('<label id="label3">Low confidence</label>');
+			$('#mainGraph').removeClass("col-md-12 col-xs-12").addClass("col-md-10 col-xs-12");
+		}
+	});
+});
