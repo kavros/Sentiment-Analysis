@@ -43,20 +43,16 @@
 /*footer */
 .footer{
     background-color:#334752;
-    /*margin-top:40px;*/
-    padding-top: 30px;
+    padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    
     padding-bottom: 30px;
+    
     font-family: Open Sans;
     font-size: 15px;
     font-weight: bold;
-    color:white;
-
-    position: absolute;
-    bottom: 0;
-    
+    color:white;  
+    margin-top: 10px;  
     
 }
 
@@ -67,12 +63,19 @@
 }
 
 
-.footer-phone{
-
-    margin-top: -10px;
-    padding-right: 15px;
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -80px; 
 }
 
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 80px; 
+}
 /*Search bar*/
 
 #exTab1 .tab-content {
@@ -154,11 +157,7 @@ label{
   font-family:Open Sans;
   background-color: #334752;
 }
-label{
-    color: white;
-    margin-bottom: 0px;
-    padding-top: 10px;
-}
+
 
 #mainGraph .nav-pills > li > a {
   border-radius: 0;
@@ -172,4 +171,10 @@ label{
 
 #mainGraph .nav-pills .active > a {
     background-color: #334752;
+}
+
+
+.mytest{
+    background-color: #334752;
+
 }
