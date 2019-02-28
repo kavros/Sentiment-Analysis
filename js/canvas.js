@@ -1,6 +1,9 @@
 
 window.onload = function() {
 
+	var Obama=[{ x: 1, y: 9.1, z: 7, name: "Obama",color:"#00cd00",label: "01/2018" },
+				{ x: 12, y: 9, z: 4, name: "Croatia",color:"#00cd00",label: "12/2018" }];
+
 	var options =  {
 		//backgroundColor: "#DDDDDD",
 		animationEnabled: true,
@@ -42,10 +45,30 @@ window.onload = function() {
 			]
 		}]
 	};
-$("#chartContainer").CanvasJSChart(options);
+
+	$("#simple-search").click(function () {
+		console.log("Hello world!"); 
+		if($('#graphRow').hasClass("row hidden"))
+		{
+			$('#graphRow').removeClass("row hidden").addClass("row");	
+			$("#chartContainer").CanvasJSChart(options);
+		}else{
+		
+	
+			if($('#keyword').val() === 'Obama'){
+				options.data[0].dataPoints = Obama;
+				$("#chartContainer").CanvasJSChart(options);
+			}
+			
+		}
+		
+	});
+
+
 }
 
-//resize functionality
+
+//adds functionality for hiding and displaying the graph
 $(function() {
 	$('#resize').click(function()
   	{
@@ -60,7 +83,7 @@ $(function() {
 			$('#label3').remove();
 			
 			$('#happinessImg').remove();
-			console.log("Hello world!"); 
+	
 			$('#mainGraph').removeClass("col-md-10 col-xs-12").addClass("col-md-12 col-xs-12");
 		}else{
 

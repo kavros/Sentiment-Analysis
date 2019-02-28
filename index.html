@@ -52,7 +52,7 @@
 			<!--End of the Navigation Bar -->	
 
 			<!--Start of graph -->
-			<div class="row">				
+			<div class="row hidden" id="graphRow">				
 				<div class="col-md-10 col-xs-12 " id="mainGraph" >	
 				    <ul  class="nav nav-pills">
 						<li><a  href="#1b" data-toggle="tab" >Day</a></li>
@@ -122,11 +122,11 @@
 									<div class="row col-md-12 col-xs-12 ">
 										<div class="col-md-11 col-xs-10">
 											<label>keyword*:</label>
-	    									<input class="form-control" id="ex1" type="text">
+	    									<input id="keyword" class="form-control" id="ex1" type="text">
 										</div>
 
 										<div class="col-md-1 col-xs-2 padding-search mobile-search-button-simple">
-											<button class="btn btn-info" >Search</button> 
+											<button id="simple-search" class="btn btn-info" >Search</button> 
 										</div>
 									</div>
 
