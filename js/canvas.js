@@ -6,6 +6,7 @@ window.onload = function() {
 		{ x: 12, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" }
 	];
 	
+
 	var scenario_simple_search = [
 		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "04/2018" },
 		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "05/2018" },
@@ -105,7 +106,7 @@ window.onload = function() {
 			xValueFormatString: "#,#0",
 			yValueFormatString: "#,#0.0",
 			zValueFormatString: "#,#0",
-			toolTipContent: "<b>{name}</b><br/>Location: {name} <br/>Confidence Level:{c}<br/> Location:{l} Average Sentiment value: {y}<br/> Population: {z}",
+			toolTipContent: "<b>{name}</b><br/>Location: {l} <br/>Confidence Level:{c}<br/> Average Sentiment value: {y}<br/> Population: {z}",
 			dataPoints: [
 				{ c:2, x: 1, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "01/2018" },
 				{ c:2, x: 2, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "02/2018" },
@@ -125,25 +126,92 @@ window.onload = function() {
 	};
 
 	$("#simple-search").click(function () {
-		console.log("Hello world!"); 
-		if($('#graphRow').hasClass("row hidden"))
+
+		if($('#keyword').val().toLowerCase() === 'university of edinburgh')
 		{
-			$('#graphRow').removeClass("row hidden").addClass("row");	
-			$("#chartContainer").CanvasJSChart(options);
-		}else{
-		
-	
-			if($('#keyword').val() === 'Obama'){
-				options.data[0].dataPoints = scenario_advanced_search_sources;
-				$("#chartContainer").CanvasJSChart(options);
-
-
-
-			}
-			
+			displayGraphSection(options);
+			options.data[0].dataPoints = scenario_simple_search;
+			$("#chartContainer").CanvasJSChart(options);			
 		}
+		else
+		{
+			showNotification();
+		}
+
+		
+	});
+
+	$("#advanced-search").click(function () {
+	
+		if(
+			($('#advanced-keyword').val().toLowerCase() === 'brexit')
+			&& ($('#location').val().toLowerCase() === 'britain'))
+		{
+			
+			displayGraphSection(options);
+			options.data[0].dataPoints = scenario_advanced_search_location;
+			$("#chartContainer").CanvasJSChart(options);	
+		}
+		else if(
+				$('#advanced-keyword').val().toLowerCase() === 'bohemian rhapsody'
+				&& 
+				$('#exampleCheck1').is(":checked"))
+		{
+			displayGraphSection(options);
+			options.data[0].dataPoints =scenario_advanced_search_sources;
+			$("#chartContainer").CanvasJSChart(options);	
+
+		}
+		else if(			
+				$('#advanced-keyword').val().toLowerCase() === 'charlie hebdo'
+				&& 
+				$('#location').val().toLowerCase() === 'paris, france'
+				&&
+				$("#datetimepicker1").find("input").val() === '01/01/2012'
+				&&
+				$("#datetimepicker2").find("input").val() === '31/12/2012')
+		{
+			displayGraphSection(options);
+			options.data[0].dataPoints =scenario_advanced_search_combination;
+			$("#chartContainer").CanvasJSChart(options);	
+
+		}
+		else if(
+			$('#advanced-keyword').val().toLowerCase() === 'barack obama'
+			&& 
+			$("#datetimepicker1").find("input").val() === '01/10/2007')	
+		{
+			displayGraphSection(options);
+			options.data[0].dataPoints =scenario_advanced_search_date;
+			$("#chartContainer").CanvasJSChart(options);	
+		}
+		else
+		{
+			showNotification();
+		}
+
+
+	});
+
 }
 
+
+
+function displayGraphSection(options)
+{
+	if($('#graphRow').hasClass("row hidden"))
+	{
+		$('#graphRow').removeClass("row hidden").addClass("row");	
+		$("#chartContainer").CanvasJSChart(options);
+	}	
+}
+
+function showNotification()
+{
+	$(".span4").removeClass("hidden");
+	$(".alert").removeClass("in").show();
+	$(".alert").delay(5000).addClass("in").fadeOut(5000);
+}
 
 //adds functionality for hiding and displaying the graph
 $(function() {
