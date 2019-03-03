@@ -1,12 +1,6 @@
 
 window.onload = function() {
 
-	var Obama = [
-        	{ x: 1, y: 9.1, z: 7, name: "Obama",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" }
-	];
-	
-
 	var scenario_simple_search = [
 		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "04/2018" },
 		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "05/2018" },
