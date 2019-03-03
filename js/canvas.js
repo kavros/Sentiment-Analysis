@@ -22,63 +22,63 @@ window.onload = function() {
 	];
 	
 	var scenario_advanced_search_date = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "02/2007" },
+		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
 		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" }
+		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
+		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2007" },
+		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2007" },
+		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2007" },
+		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2008" },
+		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2008" },
+		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2008" },
+		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2008" },
+		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2008" },
+		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
 	];
 	
 	var scenario_advanced_search_location = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "02/2007" },
-		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Brexit",color:"#00cd00",label: "03/2007" }
+		{ x: 1, y: 4.1, z: 7, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "04/2018" },
+		{ x: 2, y: 4.9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "05/2018" },
+		{ x: 3, y: 5.4, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "06/2018" },
+		{ x: 4, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "07/2018" },
+		{ x: 5, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "08/2018" },
+		{ x: 6, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "09/2018" },
+		{ x: 7, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "10/2018" },
+		{ x: 8, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "11/2018" },
+		{ x: 9, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "12/2018" },
+		{ x: 10, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "01/2019" },
+		{ x: 11, y: 9.1, z: 7, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "02/2019" },
+		{ x: 12, y: 9, z: 4, c: 0, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "03/2019" }
 	];
 	
 	var scenario_advanced_search_sources = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "02/2007" },
-		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" }
+		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "04/2018" },
+		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "05/2018" },
+		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "06/2018" },
+		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "07/2018" },
+		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "08/2018" },
+		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "09/2018" },
+		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "10/2018" },
+		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "11/2018" },
+		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "12/2018" },
+		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "01/2019" },
+		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "02/2019" },
+		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2019" }
 	];
 	
 	var scenario_advanced_search_combination = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "02/2007" },
-		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" }
+		{ x: 1, y: 4.1, z: 7, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "01/2012" },
+		{ x: 2, y: 4.9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "02/2012" },
+		{ x: 3, y: 5.4, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "03/2012" },
+		{ x: 4, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "04/2012" },
+		{ x: 5, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "05/2012" },
+		{ x: 6, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "06/2012" },
+		{ x: 7, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "07/2012" },
+		{ x: 8, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "08/2012" },
+		{ x: 9, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "09/2012" },
+		{ x: 10, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "10/2012" },
+		{ x: 11, y: 9.1, z: 7, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "11/2012" },
+		{ x: 12, y: 9, z: 4, c: 0, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "12/2012" }
 	];
 	
 
