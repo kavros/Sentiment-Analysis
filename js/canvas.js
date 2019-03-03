@@ -195,20 +195,20 @@ window.onload = function() {
 			xValueFormatString: "#,#0",
 			yValueFormatString: "#,#0.0",
 			zValueFormatString: "#,#0",
-			toolTipContent: "<b>{name}</b><br/>Month: August <br/> Average Sentiment value: {y}<br/> Population: {z}",
+			toolTipContent: "<b>{name}</b><br/>Location: {name} <br/>Confidence Level:{c}<br/> Location:{l} Average Sentiment value: {y}<br/> Population: {z}",
 			dataPoints: [
-				{ x: 1, y: 9.1, z: 7, name: "Bulgaria",color:"#00cd00",label: "01/2018" },
-				{ x: 2, y: 9.1, z: 7, name: "Bulgaria",color:"#00cd00",label: "02/2018" },
-				{ x: 3, y: -9.2, z: 1, name: "Romania",color:"#92A1CF",label: "03/2018" },
-				{ x: 4, y: 9.1, z: 7, name: "Bulgaria",color:"#00cd00",label: "04/2018" },
-				{ x: 5, y: 15.5, z: 78, name: "Turkey",color:"#008100 ",label: "05/2018" },
-				{ x: 7, y: 11.2, z: 5, name: "Norway",color:"#00cd00",label: "06/2018" },
-				{ x: 6, y: 11.2, z: 5, name: "Norway",color:"#00cd00",label: "07/2018" },
-				{ x: 8, y: 4.7, z: 46, name: "Obama",color:"#2A52BE",label: "08/2018"},
-				{ x: 9, y: 10.8, z: 11, name: "Belgium",color:"#00cd00",label: "09/2018" },
-				{ x: 10, y: 8.8, z: 21, name: "Belgium",color:"#00cd00" ,label: "10/2018"},
-				{ x: 11, y: 8.6, z: 10, name: "Greece",color:"#00cd00",label: "11/2018" },			
-				{ x: 12, y: 9, z: 4, name: "Croatia",color:"#00cd00",label: "12/2018" }
+				{ c:2, x: 1, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "01/2018" },
+				{ c:2, x: 2, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "02/2018" },
+				{ c:2, x: 3, y: -9.2, z: 1,  name: "Romania",  color:"#92A1CF",label: "03/2018" },
+				{ c:2, x: 4, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "04/2018" },
+				{ c:2, x: 5, y: 15.5, z: 78, name: "Turkey",   color:"#008100 ",label: "05/2018" },
+				{ c:2, x: 7, y: 11.2, z: 5,  name: "Norway",   color:"#00cd00",label: "06/2018" },
+				{ c:2, x: 6, y: 11.2, z: 5,  name: "Norway",   color:"#00cd00",label: "07/2018" },
+				{ c:2, x: 8, y: 4.7, z: 46,  name: "Obama",    color:"#2A52BE",label: "08/2018"},
+				{ c:2, x: 9, y: 10.8, z: 11, name: "Belgium",  color:"#00cd00",label: "09/2018" },
+				{ c:2, x: 10, y: 8.8, z: 21, name: "Belgium",  color:"#00cd00" ,label: "10/2018"},
+				{ c:2, x: 11, y: 8.6, z: 10, name: "Greece",   color:"#00cd00",label: "11/2018" },			
+				{ c:2, x: 12, y: 9, z: 4,    name: "Croatia",   color:"#00cd00",label: "12/2018" }
 				
 			]
 		}]
@@ -224,15 +224,14 @@ window.onload = function() {
 		
 	
 			if($('#keyword').val() === 'Obama'){
-				options.data[0].dataPoints = Obama;
+				options.data[0].dataPoints = scenario_advanced_search_sources;
 				$("#chartContainer").CanvasJSChart(options);
+
+
+
 			}
 			
 		}
-		
-	});
-
-
 }
 
 
