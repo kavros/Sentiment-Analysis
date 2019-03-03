@@ -18,25 +18,7 @@ window.onload = function() {
 		{ x: 9, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
 		{ x: 10, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
 		{ x: 11, y: 9.1, z: 7, name: "University of Edinburgh",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 13, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 14, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 15, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 16, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 17, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 18, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 19, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 20, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 21, y: 9.1, z: 7, name: "University of Edinburgh",color:"#00cd00",label: "02/2007" },
-		{ x: 22, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 23, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 24, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 25, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 26, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 27, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 28, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 29, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" },
-		{ x: 30, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" }
+		{ x: 12, y: 9, z: 4, name: "University of Edinburgh",color:"#00cd00",label: "03/2007" }
 	];
 	
 	var scenario_advanced_search_date = [
@@ -51,25 +33,7 @@ window.onload = function() {
 		{ x: 9, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
 		{ x: 10, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
 		{ x: 11, y: 9.1, z: 7, name: "Obama",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 13, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 14, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 15, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 16, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 17, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 18, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 19, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 20, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 21, y: 9.1, z: 7, name: "Obama",color:"#00cd00",label: "02/2007" },
-		{ x: 22, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 23, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 24, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 25, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 26, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 27, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 28, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 29, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 30, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" }
+		{ x: 12, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" }
 	];
 	
 	var scenario_advanced_search_location = [
@@ -84,25 +48,7 @@ window.onload = function() {
 		{ x: 9, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
 		{ x: 10, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
 		{ x: 11, y: 9.1, z: 7, name: "Brexit",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 13, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 14, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 15, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 16, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 17, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 18, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 19, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 20, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 21, y: 9.1, z: 7, name: "Brexit",color:"#00cd00",label: "02/2007" },
-		{ x: 22, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 23, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 24, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 25, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 26, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 27, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 28, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 29, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" },
-		{ x: 30, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" }
+		{ x: 12, y: 9, z: 4, name: "Brexit",color:"#00cd00",label: "03/2007" }
 	];
 	
 	var scenario_advanced_search_sources = [
@@ -117,25 +63,7 @@ window.onload = function() {
 		{ x: 9, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
 		{ x: 10, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
 		{ x: 11, y: 9.1, z: 7, name: "Bohemian Rhapsody",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 13, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 14, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 15, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 16, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 17, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 18, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 19, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 20, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 21, y: 9.1, z: 7, name: "Bohemian Rhapsody",color:"#00cd00",label: "02/2007" },
-		{ x: 22, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 23, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 24, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 25, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 26, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 27, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 28, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 29, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" },
-		{ x: 30, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" }
+		{ x: 12, y: 9, z: 4, name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2007" }
 	];
 	
 	var scenario_advanced_search_combination = [
@@ -150,25 +78,7 @@ window.onload = function() {
 		{ x: 9, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
 		{ x: 10, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
 		{ x: 11, y: 9.1, z: 7, name: "Charlie Hebdo",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 13, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 14, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 15, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 16, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 17, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 18, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 19, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 20, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 21, y: 9.1, z: 7, name: "Charlie Hebdo",color:"#00cd00",label: "02/2007" },
-		{ x: 22, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 23, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 24, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 25, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 26, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 27, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 28, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 29, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" },
-		{ x: 30, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" }
+		{ x: 12, y: 9, z: 4, name: "Charlie Hebdo",color:"#00cd00",label: "03/2007" }
 	];
 	
 
