@@ -32,18 +32,18 @@ window.onload = function() {
 	];
 	
 	var scenario_advanced_search_location = [
-		{ x: 1, y: 4.1, z: 7, c: 1, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "04/2018" },
-		{ x: 2, y: 4.9, z: 4, c: 2, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "05/2018" },
-		{ x: 3, y: 5.4, z: 4, c: 4, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "06/2018" },
-		{ x: 4, y: 9, z: 4, c: 5, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "07/2018" },
-		{ x: 5, y: 9, z: 4, c: 7, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "08/2018" },
-		{ x: 6, y: 9, z: 4, c: 8, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "09/2018" },
-		{ x: 7, y: 9, z: 4, c: 1, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "10/2018" },
-		{ x: 8, y: 9, z: 4, c: 2, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "11/2018" },
-		{ x: 9, y: 9, z: 4, c: 9, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "12/2018" },
-		{ x: 10, y: 9, z: 4, c: 8, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "01/2019" },
-		{ x: 11, y: 9.1, z: 7, c: 9, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "02/2019" },
-		{ x: 12, y: 9, z: 4, c: 9, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "03/2019" }
+		{ x: 1, y: 6.9, z: 7, c: 0.88, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "04/2018" },
+		{ x: 2, y: 7.6, z: 10, c: 0.81, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "05/2018" },
+		{ x: 3, y: 7.9, z: 14, c: 0.79, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "06/2018" },
+		{ x: 4, y: 7.3, z: 19, c: 0.85, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "07/2018" },
+		{ x: 5, y: 7.3, z: 19, c: 0.79, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "08/2018" },
+		{ x: 6, y: 6.9, z: 23, c: 0.91, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "09/2018" },
+		{ x: 7, y: 7.6, z: 28, c: 0.81, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "10/2018" },
+		{ x: 8, y: 8.1, z: 42, c: 0.88, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "11/2018" },
+		{ x: 9, y: 7.2, z: 55, c: 0.90, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "12/2018" },
+		{ x: 10, y: 7.4, z: 100, c: 0.87, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "01/2019" },
+		{ x: 11, y: 7.6, z: 46, c: 0.78, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "02/2019" },
+		{ x: 12, y: 7.7, z: 38, c: 0.91, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "03/2019" }
 	];
 	
 	var scenario_advanced_search_sources = [
