@@ -64,18 +64,18 @@ window.onload = function() {
 	];
 	
 	var scenario_advanced_search_combination = [
-		{ x: 1, y: 4.1, z: 2, c: 0.15, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "01/2012" },
-		{ x: 2, y: 4.9, z: 1, c: 0.24, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "02/2012" },
-		{ x: 3, y: 5.4, z: 1, c: 0.09, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "03/2012" },
-		{ x: 4, y: 9, z: 0, c: 0.21, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "04/2012" },
-		{ x: 5, y: 9, z: 2, c: 0.12, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "05/2012" },
-		{ x: 6, y: 9, z: 1, c: 0.07, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "06/2012" },
-		{ x: 7, y: 9, z: 1, c: 0.07, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "07/2012" },
-		{ x: 8, y: 9, z: 0, c: 0.11, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "08/2012" },
-		{ x: 9, y: 9, z: 100, c: 0.98, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "09/2012" },
-		{ x: 10, y: 9, z: 2, c: 0.91, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "10/2012" },
-		{ x: 11, y: 9.1, z: 2, c: 0.85, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "11/2012" },
-		{ x: 12, y: 9, z: 2, c: 0.79, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "12/2012" }
+		{ x: 1, y: 6.5, z: 2, c: 0.15, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "01/2012" },
+		{ x: 2, y: 6.7, z: 1, c: 0.24, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "02/2012" },
+		{ x: 3, y: 6.1, z: 1, c: 0.09, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "03/2012" },
+		{ x: 4, y: 6.3, z: 0, c: 0.21, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "04/2012" },
+		{ x: 5, y: 6.2, z: 2, c: 0.12, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "05/2012" },
+		{ x: 6, y: 6.3, z: 1, c: 0.07, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "06/2012" },
+		{ x: 7, y: 6.3, z: 1, c: 0.07, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "07/2012" },
+		{ x: 8, y: 7.7, z: 0, c: 0.11, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "08/2012" },
+		{ x: 9, y: 1.3, z: 100, c: 0.98, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "09/2012" },
+		{ x: 10, y: 1.9, z: 2, c: 0.91, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "10/2012" },
+		{ x: 11, y: 2.4, z: 2, c: 0.85, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "11/2012" },
+		{ x: 12, y: 3.5, z: 2, c: 0.79, l: "Paris, France", name: "Charlie Hebdo",color:"#00cd00",label: "12/2012" }
 	];
 	
 
