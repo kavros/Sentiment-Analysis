@@ -169,7 +169,8 @@ window.onload = function() {
 				&&
 				$("#datetimepicker1").find("input").val() === '01/01/2012'
 				&&
-				$("#datetimepicker2").find("input").val() === '31/12/2012')
+				$("#datetimepicker2").find("input").val() === '31/12/2012'
+				)
 		{
 			displayGraphSection(options);
 			options.data[0].dataPoints =scenario_advanced_search_combination;
@@ -179,7 +180,11 @@ window.onload = function() {
 		else if(
 			$('#advanced-keyword').val().toLowerCase() === 'barack obama'
 			&& 
-			$("#datetimepicker1").find("input").val() === '01/10/2007')	
+			$("#datetimepicker1").find("input").val() === '01/01/2007'
+			&&
+			$("#datetimepicker2").find("input").val() === '31/12/2008'
+			)
+			
 		{
 			displayGraphSection(options);
 			options.data[0].dataPoints =scenario_advanced_search_date;
