@@ -30,7 +30,7 @@
   * Enter keyword:Bohemian Rhapsody, check:IMdb
 * Scenario 5
   * Select advanced search tab
-  * Enter keyword:Charlie Hebdo,  start date: 01/01/2012, end date: 31/12/2012
+  * Enter keyword:Charlie Hebdo, location:Paris, France, start date: 01/01/2012, end date: 31/12/2012
  
  
  
