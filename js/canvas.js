@@ -210,11 +210,12 @@ window.onload = function() {
 
 function initConfidenceColor(array)
 {
-	var colors = ['#7FD6E5','#108AD1','#108AC1','#7FE5CB','#B2F4FF','#4CB298','#33997F','#197F65','#336659','#00664C']
+	var colors = ['#D8F1FF','#C5EAFF','#B1E2FF','#9EDBFF','#8AD4FF','#76CDFF','#63C5FF','#4FBEFF','#3CB7FF','#01A1FF']
 	var length = array.length;
 	for(var i=0; i < length; i++)
 	{
-		array[i].color = colors[array[i].c];
+		
+		array[i].color = colors[parseInt((array[i].c*10), 10)];
 	}
 }
 
