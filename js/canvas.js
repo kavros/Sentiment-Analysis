@@ -17,18 +17,18 @@ window.onload = function() {
 	];
 	
 	var scenario_advanced_search_date = [
-		{ x: 1, y: 4.1, z: 1, c: 1, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
-		{ x: 2, y: 8.9, z: 2, c: 2, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 1, c: 3, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
-		{ x: 4, y: 9, z: 1, c: 4, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2007" },
-		{ x: 5, y: 9, z: 1, c: 5, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2007" },
-		{ x: 6, y: 9, z: 1, c: 6, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2007" },
-		{ x: 7, y: 9, z: 6, c: 7, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2008" },
-		{ x: 8, y: 9, z: 9, c: 8, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2008" },
-		{ x: 9, y: 9, z: 7, c: 9, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2008" },
-		{ x: 10, y: 9, z: 10, c: 9, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2008" },
-		{ x: 11, y: 9.1, z: 18, c: 9, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2008" },
-		{ x: 12, y: 9, z: 100, c: 9, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
+		{ x: 1, y: 5.3, z: 1, c: 0.89, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
+		{ x: 2, y: 7.5, z: 2, c: 0.88, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
+		{ x: 3, y: 7.2, z: 1, c: 0.91, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
+		{ x: 4, y: 7.8, z: 1, c: 0.89, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2007" },
+		{ x: 5, y: 6.7, z: 1, c: 0.82, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2007" },
+		{ x: 6, y: 6.4, z: 1, c: 0.87, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2007" },
+		{ x: 7, y: 5.6, z: 6, c: 0.91, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2008" },
+		{ x: 8, y: 4.1, z: 9, c: 0.9, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2008" },
+		{ x: 9, y: 3.7, z: 7, c: 0.93, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2008" },
+		{ x: 10, y: 4.2, z: 10, c: 0.87, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2008" },
+		{ x: 11, y: 6.5, z: 18, c: 0.86, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2008" },
+		{ x: 12, y: 8.1, z: 100, c: 0.88, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
 	];
 	
 	var scenario_advanced_search_location = [
