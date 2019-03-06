@@ -1,40 +1,34 @@
 
 window.onload = function() {
 
-	var Obama = [
-        	{ x: 1, y: 9.1, z: 7, name: "Obama",color:"#00cd00",label: "02/2007" },
-		{ x: 12, y: 9, z: 4, name: "Obama",color:"#00cd00",label: "03/2007" }
-	];
-	
-
 	var scenario_simple_search = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "04/2018" },
-		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "05/2018" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "06/2018" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "07/2018" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "08/2018" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "09/2018" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "10/2018" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "11/2018" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "12/2018" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "01/2019" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "02/2019" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "03/2019" }
+		{ x: 1, y: 6.1, z: 75, c: 0.91, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "04/2018" },
+		{ x: 2, y: 5.9, z: 72, c: 0.86, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "05/2018" },
+		{ x: 3, y: 7.9, z: 55, c: 0.86, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "06/2018" },
+		{ x: 4, y: 8.0, z: 61, c: 0.88, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "07/2018" },
+		{ x: 5, y: 8.0, z: 68, c: 0.89, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "08/2018" },
+		{ x: 6, y: 8.2, z: 84, c: 0.79, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "09/2018" },
+		{ x: 7, y: 8.3, z: 81, c: 0.84, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "10/2018" },
+		{ x: 8, y: 8.0, z: 72, c: 0.9, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "11/2018" },
+		{ x: 9, y: 7.7, z: 49, c: 0.87, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "12/2018" },
+		{ x: 10, y: 7.5, z: 72, c: 0.88, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "01/2019" },
+		{ x: 11, y: 6.7, z: 68, c: 0.79, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "02/2019" },
+		{ x: 12, y: 6.6, z: 62, c: 0.83, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "03/2019" }
 	];
 	
 	var scenario_advanced_search_date = [
-		{ x: 1, y: 4.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
-		{ x: 2, y: 4.9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
-		{ x: 3, y: 5.4, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
-		{ x: 4, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2007" },
-		{ x: 5, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2007" },
-		{ x: 6, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2007" },
-		{ x: 7, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2008" },
-		{ x: 8, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2008" },
-		{ x: 9, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2008" },
-		{ x: 10, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2008" },
-		{ x: 11, y: 9.1, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2008" },
-		{ x: 12, y: 9, z: 4, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
+		{ x: 1, y: 4.1, z: 1, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
+		{ x: 2, y: 8.9, z: 2, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
+		{ x: 3, y: 5.4, z: 1, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
+		{ x: 4, y: 9, z: 1, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2007" },
+		{ x: 5, y: 9, z: 1, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2007" },
+		{ x: 6, y: 9, z: 1, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2007" },
+		{ x: 7, y: 9, z: 6, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2008" },
+		{ x: 8, y: 9, z: 9, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2008" },
+		{ x: 9, y: 9, z: 7, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2008" },
+		{ x: 10, y: 9, z: 10, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "07/2008" },
+		{ x: 11, y: 9.1, z: 18, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "09/2008" },
+		{ x: 12, y: 9, z: 100, c: 0, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
 	];
 	
 	var scenario_advanced_search_location = [
