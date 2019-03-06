@@ -15,3 +15,23 @@
 * [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
 
+# Solutions for Scenarios
+* Scenario 1
+  * Select simple search tab
+  * Enter keyword University of Edinburgh
+* Scenario 2
+  * Select advanced search tab
+  * Enter keyword: Barack Obama, start date: 01/01/2007, end date: 31/12/2008
+* Scenario 3
+  * Select advanced search tab
+  * Enter Keyword: Brexit Location: Britain
+* Scenario 4
+  * Select advanced search tab
+  * Enter keyword:Bohemian Rhapsody, check:IMdb
+* Scenario 5
+  * Select advanced search tab
+  * Enter keyword:Charlie Hebdo, location:Paris, France, start date: 01/01/2012, end date: 31/12/2012
+ 
+ 
+ 
+  
