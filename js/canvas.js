@@ -101,7 +101,7 @@ window.onload = function() {
 			type: "bubble",
 			xValueFormatString: "#,#0",
 			yValueFormatString: "#,#0.0",
-			zValueFormatString: "#,#0",
+			zValueFormatString: "#0",
 			toolTipContent: "<b>{name}</b><br/>Location: {l} <br/>Confidence Level: {c}<br/> Average Sentiment value: {y}<br/> Population: {z}",
 			dataPoints: [
 				{ c:2, x: 1, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "01/2018" },
