@@ -212,10 +212,18 @@ function initConfidenceColor(array)
 {
 	var colors = ['#D8F1FF','#C5EAFF','#B1E2FF','#9EDBFF','#8AD4FF','#76CDFF','#63C5FF','#4FBEFF','#3CB7FF','#01A1FF']
 	var length = array.length;
+	var colorIndex=0;
 	for(var i=0; i < length; i++)
 	{
-		
-		array[i].color = colors[parseInt((array[i].c*10), 10)];
+		if(array[i].c != 1)
+		{
+			colorIndex =parseInt((array[i].c*10), 10);
+		}
+		else
+		{
+			colorIndex = 9;
+		}
+		array[i].color = colors[colorIndex];
 	}
 }
 
