@@ -24,19 +24,19 @@
 # Solutions for Scenarios
 * Scenario 1
   * Select simple search tab
-  * Enter keyword University of Edinburgh
+  * Enter keyword: University of Edinburgh
 * Scenario 2
   * Select advanced search tab
-  * Enter keyword: Barack Obama, start date: 01/01/2007, end date: 31/12/2008
+  * Enter keyword: Obama, start date: 01/01/2007, end date: 31/12/2008
 * Scenario 3
   * Select advanced search tab
-  * Enter Keyword: Brexit Location: Britain
+  * Enter Keyword: Brexit Location: United Kingdom
 * Scenario 4
   * Select advanced search tab
-  * Enter keyword:Bohemian Rhapsody, check:IMdb
+  * Enter keyword: Bohemian Rhapsody, check: IMDb
 * Scenario 5
   * Select advanced search tab
-  * Enter keyword:Charlie Hebdo, location:Paris, France, start date: 01/01/2012, end date: 31/12/2012
+  * Enter keyword: Charlie Hebdo, location: France, start date: 01/01/2012, end date: 31/12/2012
  
  
  
