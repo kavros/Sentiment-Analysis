@@ -3,7 +3,7 @@
 # Links for shared documents
 * Phase 2:
   * [Intoduction Speech for Scenarios](https://docs.google.com/document/d/1Q_5apw9pUvhXW3SicY4I_Hgv_Nuh_Su67vWB7nNVjR0/edit?usp=sharing)
-  * [Google form with Scenarios](https://docs.google.com/forms/d/1Bl5qL2nGQ0182Z1OLUtRgM0KgllvmCi5i0eb14D1YJs/edit?usp=sharing)
+  * [Slides for scenarios](https://docs.google.com/presentation/d/1K9yt5EzQk232Llxr5TCyLQiv08VM6RHHaRTPINkaktg/edit?usp=sharing)
   * [Report for phase 2](https://www.overleaf.com/3532464358bmcfyfmdfmxk)
 * Phase 1:
   * [Report for phase 1](https://www.overleaf.com/4929713254rzkyjvnktgdb)
