@@ -2,7 +2,8 @@
 
 # Links for shared documents
 * Phase 2:
-  * [Webpage](http://alexiskavroulakis.com/Sentiment-Analysis/)
+  * [Spreadsheet for Notes](https://docs.google.com/spreadsheets/d/1NbxiDpBnAFK5i6nSiXF3eeBTan9wrBeycsR6J4SmAK8/edit#gid=0)
+  * [Webpage (Prototype)](http://alexiskavroulakis.com/Sentiment-Analysis/)
   * [Intoduction Speech for Scenarios](https://docs.google.com/document/d/1Q_5apw9pUvhXW3SicY4I_Hgv_Nuh_Su67vWB7nNVjR0/edit?usp=sharing)
   * [Slides for scenarios](https://docs.google.com/presentation/d/1K9yt5EzQk232Llxr5TCyLQiv08VM6RHHaRTPINkaktg/edit?usp=sharing)
   * [Report for phase 2](https://www.overleaf.com/3532464358bmcfyfmdfmxk)
