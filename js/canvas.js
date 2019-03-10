@@ -153,7 +153,7 @@ window.onload = function() {
 		
 		if(
 			($('#advanced-keyword').val().toLowerCase() === 'brexit')
-			&& ($('#location').val().toLowerCase() === 'britain'))
+			&& ($('#location').val().toLowerCase() === 'united kingdom'))
 		{
 			
 			displayGraphSection(options);
@@ -173,7 +173,7 @@ window.onload = function() {
 		else if(			
 				$('#advanced-keyword').val().toLowerCase() === 'charlie hebdo'
 				&& 
-				$('#location').val().toLowerCase() === 'paris, france'
+				$('#location').val().toLowerCase() === 'france'
 				&&
 				$("#datetimepicker1").find("input").val() === '01/01/2012'
 				&&
@@ -186,7 +186,7 @@ window.onload = function() {
 
 		}
 		else if(
-			$('#advanced-keyword').val().toLowerCase() === 'barack obama'
+			$('#advanced-keyword').val().toLowerCase() === 'obama'
 			&& 
 			$("#datetimepicker1").find("input").val() === '01/01/2007'
 			&&
