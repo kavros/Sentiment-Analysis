@@ -123,7 +123,7 @@ window.onload = function() {
 
 	$("#simple-search").click(function () {
 
-		if($('#keyword').val().toLowerCase() === 'university of edinburgh')
+		if($('#keyword').val().toLowerCase().trim() === 'university of edinburgh')
 		{
 			initConfidenceColor(scenario_simple_search);
 			initConfidenceColor(scenario_advanced_search_location);
@@ -152,8 +152,8 @@ window.onload = function() {
 		initConfidenceColor(scenario_advanced_search_date);	
 		
 		if(
-			($('#advanced-keyword').val().toLowerCase() === 'brexit')
-			&& ($('#location').val().toLowerCase() === 'united kingdom'))
+			($('#advanced-keyword').val().toLowerCase().trim() === 'brexit')
+			&& ($('#location').val().toLowerCase().trim() === 'united kingdom'))
 		{
 			
 			displayGraphSection(options);
@@ -161,7 +161,7 @@ window.onload = function() {
 			$("#chartContainer").CanvasJSChart(options);	
 		}
 		else if(
-				$('#advanced-keyword').val().toLowerCase() === 'bohemian rhapsody'
+				$('#advanced-keyword').val().toLowerCase().trim() === 'bohemian rhapsody'
 				&& 
 				$('#exampleCheck1').is(":checked"))
 		{
@@ -171,9 +171,9 @@ window.onload = function() {
 
 		}
 		else if(			
-				$('#advanced-keyword').val().toLowerCase() === 'charlie hebdo'
+				$('#advanced-keyword').val().toLowerCase().trim() === 'charlie hebdo'
 				&& 
-				$('#location').val().toLowerCase() === 'france'
+				$('#location').val().toLowerCase().trim() === 'france'
 				&&
 				$("#datetimepicker1").find("input").val() === '01/01/2012'
 				&&
@@ -186,7 +186,7 @@ window.onload = function() {
 
 		}
 		else if(
-			$('#advanced-keyword').val().toLowerCase() === 'obama'
+			$('#advanced-keyword').val().toLowerCase().trim() === 'obama'
 			&& 
 			$("#datetimepicker1").find("input").val() === '01/01/2007'
 			&&
