@@ -22,22 +22,11 @@
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
 
 # Solutions for Scenarios
-* Scenario 1
-  * Select simple search tab
-  * Enter keyword: University of Edinburgh
-* Scenario 2
-  * Select advanced search tab
-  * Enter keyword: Obama, start date: 01/01/2007, end date: 31/12/2008
-* Scenario 3
-  * Select advanced search tab
-  * Enter Keyword: Brexit Location: United Kingdom
-* Scenario 4
-  * Select advanced search tab
-  * Enter keyword: Bohemian Rhapsody, check: IMDb
-* Scenario 5
-  * Select advanced search tab
-  * Enter keyword: Charlie Hebdo, location: France, start date: 01/01/2012, end date: 31/12/2012
- 
- 
- 
-  
+| Scenario        | search query           | location  | start date| end date |Check box|
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|
+| 1 | University of Edinburgh | | | | | |
+| 2 |  Obama| | 01/01/2007| 31/12/2008|Twitter |
+| 3 | Brexit | United Kingdom| | | Twitter |
+| 4 | Bohemian Rhapsody | | | | IMDb |
+| 5 |  Charlie Hebdo | France|01/01/2012 |31/12/2012 |Twitter | 
+
