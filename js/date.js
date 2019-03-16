@@ -11,3 +11,15 @@ $(function() {
   	});
 });
 
+$(function() {
+  $('#startDateInput').datetimepicker(
+  	{
+  		format: 'DD/MM/YYYY'
+  	});
+});
+$(function() {
+  $('#endDateInput').datetimepicker(
+  	{
+  		format: 'DD/MM/YYYY'
+  	});
+});

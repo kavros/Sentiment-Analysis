@@ -133,13 +133,13 @@ window.onload = function() {
 
 			displayGraphSection(options);
 			options.data[0].dataPoints = scenario_simple_search;
-			$("#chartContainer").CanvasJSChart(options);			
+			$("#chartContainer").CanvasJSChart(options);	
+			resetInputs();		
 		}
 		else
 		{
 			showNotification();
 		}
-		resetInputs();
 		
 	});
 
@@ -151,23 +151,32 @@ window.onload = function() {
 		initConfidenceColor(scenario_advanced_search_combination);
 		initConfidenceColor(scenario_advanced_search_date);	
 		
+		if( !$('#twitter').is(":checked") &&  !$('#imdb').is(":checked") && !$('#trends').is(":checked"))
+		{
+			alert("Please select data source!");
+			return;
+		}
+
 		if(
 			($('#advanced-keyword').val().toLowerCase().trim() === 'brexit')
-			&& ($('#location').val().toLowerCase().trim() === 'united kingdom'))
+			&& ($('#location').val().toLowerCase().trim() === 'united kingdom')
+			&& $('#twitter').is(":checked"))
 		{
 			
 			displayGraphSection(options);
 			options.data[0].dataPoints = scenario_advanced_search_location;
 			$("#chartContainer").CanvasJSChart(options);	
+			resetInputs();
 		}
 		else if(
 				$('#advanced-keyword').val().toLowerCase().trim() === 'bohemian rhapsody'
 				&& 
-				$('#exampleCheck1').is(":checked"))
+				$('#imdb').is(":checked"))
 		{
 			displayGraphSection(options);
 			options.data[0].dataPoints =scenario_advanced_search_sources;
 			$("#chartContainer").CanvasJSChart(options);	
+			resetInputs();
 
 		}
 		else if(			
@@ -178,11 +187,14 @@ window.onload = function() {
 				$("#datetimepicker1").find("input").val() === '01/01/2012'
 				&&
 				$("#datetimepicker2").find("input").val() === '31/12/2012'
+				&& 
+				$('#twitter').is(":checked")
 				)
 		{
 			displayGraphSection(options);
 			options.data[0].dataPoints =scenario_advanced_search_combination;
 			$("#chartContainer").CanvasJSChart(options);	
+			resetInputs();
 
 		}
 		else if(
@@ -190,20 +202,23 @@ window.onload = function() {
 			&& 
 			$("#datetimepicker1").find("input").val() === '01/01/2007'
 			&&
-			$("#datetimepicker2").find("input").val() === '31/12/2008'
+			$("#datetimepicker2").find("input").val() === '31/12/2008'			
+			&& 
+			$('#twitter').is(":checked")
 			)
 			
 		{
 			displayGraphSection(options);
 			options.data[0].dataPoints =scenario_advanced_search_date;
 			$("#chartContainer").CanvasJSChart(options);	
+			resetInputs();
 		}
 		else
 		{
 			showNotification();
 		}
 
-		resetInputs();
+		
 	});
 
 }
@@ -215,7 +230,7 @@ function resetInputs()
 	$("#datetimepicker2").find("input").val('');
 	$('#location').val('');
 	$('#keyword').val('');
-	$('#exampleCheck2').prop('checked','true');
+	
 }
 
 function initConfidenceColor(array)
