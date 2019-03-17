@@ -32,6 +32,7 @@ Sentiment analysis is the automated process of understanding an opinion about a 
 ---
 ### Links for shared documents
 * Phase 2:
+  * [Google Form for SUS test incl. results (you can request access via this link)](https://docs.google.com/forms/d/e/1FAIpQLSenyvthGA1wdy936HOJ078jLTSKl0hqRDXBQqAN8KxsjVPV3g/viewform)
   * [Spreadsheet for Notes](https://docs.google.com/spreadsheets/d/1NbxiDpBnAFK5i6nSiXF3eeBTan9wrBeycsR6J4SmAK8/edit#gid=0)
   * [Webpage (Prototype)](http://alexiskavroulakis.com/Sentiment-Analysis/)
   * [Intoduction Speech for Scenarios](https://docs.google.com/document/d/1Q_5apw9pUvhXW3SicY4I_Hgv_Nuh_Su67vWB7nNVjR0/edit?usp=sharing)
