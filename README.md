@@ -2,7 +2,7 @@
 # Overview
 Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the section named Solutions for Scenarios below.
 
-### Dispaly Webpage
+### Display Webpage
  * Local: open **index.html** using your browser.
  * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
 
