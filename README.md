@@ -1,10 +1,10 @@
 
 # Overview
-Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is a prototype for a sentiment analysis system which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the Solutions for Scenarios below.
+Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the section named Solutions for Scenarios below.
 
-## Run
- * Local: open index.html using your browser.
- * Web: [Sentiment-Analysis.](http://alexiskavroulakis.com/Sentiment-Analysis/)
+## Dispaly Webpage
+ * Local: open **index.html** using your browser.
+ * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
 
 ## Solutions for Scenarios
 | Scenario        | search query           | location  | start date| end date |Check box|
@@ -15,7 +15,16 @@ Sentiment analysis is the automated process of understanding an opinion about a 
 | 4 | Bohemian Rhapsody | | | | IMDb |
 | 5 |  Charlie Hebdo | France|01/01/2012 |31/12/2012 |Twitter | 
 
-
+## Prototype changes based on users feedback
+|Num| Description   | Issue Number|
+| ------------- |:-------------:|:-------------:|
+|1|show an alert box if the user does not select a data source. |[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|2|opens datepicker popup when the user click in the input field.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|3|change icon for mail at footer.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|4|rename keyword label to search query label.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|5|change code to clean inputs if the user query is correct.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|6|changed js code based on scenario changes.|[#11](https://github.com/kavros/Sentiment-Analysis/issues/11) |
+|7|changed confidence axis image since using one color seems to be  easier for the user to understand the confidence level. |[#5](https://github.com/kavros/Sentiment-Analysis/issues/5) |
 ## Links for shared documents
 * Phase 2:
   * [Spreadsheet for Notes](https://docs.google.com/spreadsheets/d/1NbxiDpBnAFK5i6nSiXF3eeBTan9wrBeycsR6J4SmAK8/edit#gid=0)
