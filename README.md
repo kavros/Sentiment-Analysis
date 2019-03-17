@@ -1,6 +1,36 @@
 
+## Overview
+Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the section named Solutions for Scenarios below.
 
-# Links for shared documents
+---
+### Display Webpage
+ * Local: open **index.html** using your browser.
+ * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
+
+---
+### Solutions for Scenarios
+| Scenario        | search query           | location  | start date| end date |Check box|
+|:-------------:|:-------------|:-----|:-----|:-----|:-----|
+| 1 | University of Edinburgh | | | | | |
+| 2 |  Obama| | 01/01/2007| 31/12/2008|Twitter |
+| 3 | Brexit | United Kingdom| | | Twitter |
+| 4 | Bohemian Rhapsody | | | | IMDb |
+| 5 |  Charlie Hebdo | France|01/01/2012 |31/12/2012 |Twitter | 
+
+---
+### Prototype changes based on users feedback
+|Num| Description   | Issue Number|
+|:-------------:|:-------------|:-------------:|
+|1|show an alert box if the user does not select a data source. |[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|2|opens datepicker popup when the user click in the input field.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|3|change icon for mail at footer.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|4|rename keyword label to search query label.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|5|change code to clean inputs if the user query is correct.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
+|6|changed js code based on scenario changes.|[#11](https://github.com/kavros/Sentiment-Analysis/issues/11) |
+|7|changed confidence axis image since using one color seems to be  easier for the user to understand the confidence level. |[#5](https://github.com/kavros/Sentiment-Analysis/issues/5) |
+
+---
+### Links for shared documents
 * Phase 2:
   * [Spreadsheet for Notes](https://docs.google.com/spreadsheets/d/1NbxiDpBnAFK5i6nSiXF3eeBTan9wrBeycsR6J4SmAK8/edit#gid=0)
   * [Webpage (Prototype)](http://alexiskavroulakis.com/Sentiment-Analysis/)
@@ -17,27 +47,7 @@
   * [Risk Analysis](https://docs.google.com/document/d/11zV_r6II-NUeqCdDrP0cZHHb8t_aZNyOYmYCP7ATwYs/edit#heading=h.ekt7cjy9xwzv)
   * [User Interface Design](https://docs.google.com/document/d/1QDToYyaeqLTdVpkmZtNAWw_MWG5a_u6c2Z9kwnWrwKI/edit?usp=sharing)
 
-# Additional readings:
+---
+### Additional readings:
 * [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
-
-# Solutions for Scenarios
-* Scenario 1
-  * Select simple search tab
-  * Enter keyword: University of Edinburgh
-* Scenario 2
-  * Select advanced search tab
-  * Enter keyword: Obama, start date: 01/01/2007, end date: 31/12/2008
-* Scenario 3
-  * Select advanced search tab
-  * Enter Keyword: Brexit Location: United Kingdom
-* Scenario 4
-  * Select advanced search tab
-  * Enter keyword: Bohemian Rhapsody, check: IMDb
-* Scenario 5
-  * Select advanced search tab
-  * Enter keyword: Charlie Hebdo, location: France, start date: 01/01/2012, end date: 31/12/2012
- 
- 
- 
-  
