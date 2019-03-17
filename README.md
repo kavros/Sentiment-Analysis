@@ -1,6 +1,22 @@
 
+# Overview
+Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is a prototype for a sentiment analysis system which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the Solutions for Scenarios below.
 
-# Links for shared documents
+## Run
+ * Local: open index.html using your browser.
+ * Web: [Sentiment-Analysis.](http://alexiskavroulakis.com/Sentiment-Analysis/)
+
+## Solutions for Scenarios
+| Scenario        | search query           | location  | start date| end date |Check box|
+| ------------- |:-------------:| -----:|-----:|-----:|-----:|
+| 1 | University of Edinburgh | | | | | |
+| 2 |  Obama| | 01/01/2007| 31/12/2008|Twitter |
+| 3 | Brexit | United Kingdom| | | Twitter |
+| 4 | Bohemian Rhapsody | | | | IMDb |
+| 5 |  Charlie Hebdo | France|01/01/2012 |31/12/2012 |Twitter | 
+
+
+## Links for shared documents
 * Phase 2:
   * [Spreadsheet for Notes](https://docs.google.com/spreadsheets/d/1NbxiDpBnAFK5i6nSiXF3eeBTan9wrBeycsR6J4SmAK8/edit#gid=0)
   * [Webpage (Prototype)](http://alexiskavroulakis.com/Sentiment-Analysis/)
@@ -20,13 +36,3 @@
 # Additional readings:
 * [Build a social media dashboard using machine learning and BI services](https://aws.amazon.com/de/blogs/machine-learning/build-a-social-media-dashboard-using-machine-learning-and-bi-services/)
 * [An app to analyze tweets using Amazon Comprehend's Sentiment Analysis service](https://github.com/dmuth/twitter-aws-comprehend)
-
-# Solutions for Scenarios
-| Scenario        | search query           | location  | start date| end date |Check box|
-| ------------- |:-------------:| -----:|-----:|-----:|-----:|
-| 1 | University of Edinburgh | | | | | |
-| 2 |  Obama| | 01/01/2007| 31/12/2008|Twitter |
-| 3 | Brexit | United Kingdom| | | Twitter |
-| 4 | Bohemian Rhapsody | | | | IMDb |
-| 5 |  Charlie Hebdo | France|01/01/2012 |31/12/2012 |Twitter | 
-
