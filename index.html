@@ -96,13 +96,13 @@
 			  		
 				</div>
 
-		  		<div class="axis1 col-md-1 hidden-xs hidden-sm"  id="axis1" >					
+		  		<div class="axis1 col-md-1 hidden-xs hidden-sm"  id="axis1"  data-toggle="tooltip" data-placement="top" title="The average sentiment value shown on y axis is defined on a scale from 0 to 10 with 0 being negative and 10 being positive.">					
 					<label id="label0">Positive</label>
 						<img src="images/happinessAxis.png" id="happinessImg" >
 					<label id="label1">Negative</label>
 				</div>
 				
-				<div class="axis2 col-md-1 hidden-xs hidden-sm"  id="axis2">					
+				<div class="axis2 col-md-1 hidden-xs hidden-sm"  id="axis2" data-toggle="tooltip" data-placement="top" title="The colour of the bubble represents the confidence level of the average sentiment value. High-confidence is represented with dark blue and low-confidence with light blue.">					
 					<label id="label2">High Confidence</label>
 						<img src="images/confidence.png" id="confidenceImg">										
 					<label id="label3">Low Confidence</label>
@@ -226,11 +226,18 @@
 				</div>
 			</div>
 			<!-- End of search -->
-			
 			<!-- Start of explanation -->
-			<div class="row row-m-t">
-		    		<div class="col-md-4 col-xs-12">
-					<h2>How to interpret the data shown in the graph?</h2>
+	<div class="row row-m-t hidden" id="explanation_text">
+		
+			
+				
+				<div class="col-md-12 col-xs-12 text-center">
+				<h2>How to interpret the data shown in the graph?</h2>
+				</div>
+
+			
+			
+	    		<div class="col-md-4 col-xs-12">
 					<h3>Location</h3>
 					<p>Refers to the geographic region that the query is targeted at. Twitter offers tags to trace down tweets from specific regions and Google Trends delivers search volumes on a country basis. Default location is "Worldwide". Accepted locations are on a country basis only.</p>
 					<h3>Start and end date</h3>
@@ -240,13 +247,14 @@
 					<h3>Average sentiment value</h3>
 					<p>This tool evaluates input data and assigns averaged sentiment values that are presented as data points. On "Month" tab, the tool presents an average value for each month or an average over two months depending on the chose time horzion. The value is defined on a scale from 0 to 10 with 0 being "negative" and 10 being "positive". For instance, a value of 5 reflects a classification as "neutral".</p>
 					<h3>Confidence level</h3>
-					<p>The confidence level describes the analysis' certainty of correctly classifying input data as "positive" or "negative". The value is presented on a scale from 0.01 to 1.00 (1% to 100%)</p>
+					<p>The confidence level describes the analysis' certainty of correctly classifying input data as "positive" or "negative". The value is presented on a scale from 0.01 to 1.00 (1% to 100%). There is also an image with shades of blue(at the right of the graph) which illustrate how we map the confidence level to a color.</p>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<h3>Population</h3>
 					<p>By default, the quantity of input data is presented as population value on a scale from 1 to 100 representing relative values of maximum and minimum occurrences (i.e. percentage value). For IMDb, population contains the absolute number of movie reviews.</p>
 				</div>
-			</div>
+			
+	</div>
 			<!-- End of explanation -->
 			
 			<!--Start of the Footer -->						

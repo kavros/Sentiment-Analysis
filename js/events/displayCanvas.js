@@ -258,7 +258,10 @@ function displayGraphSection(options)
 	{
 		$('#graphRow').removeClass("row hidden").addClass("row");	
 		$("#chartContainer").CanvasJSChart(options);
-	}	
+	}
+	
+	$('#explanation_text').removeClass("hidden").addClass("explanation row row-m-t");
+
 }
 
 function showNotification()

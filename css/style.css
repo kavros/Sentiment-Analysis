@@ -7,6 +7,11 @@
     margin-bottom: 30px;
 }
 
+#explanation_text
+{
+    background-color:#334752;
+    color: white;
+}
 #navigation,.navbar .navbar-default
 {
     background-color:#334752;
@@ -142,6 +147,7 @@ label{
 .row-m-t{
   margin-top : 20px
 }
+
 
 .axis1{
   background-color: #334752;
