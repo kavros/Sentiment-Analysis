@@ -4,7 +4,7 @@ Sentiment analysis is the automated process of understanding an opinion about a 
 
 ---
 ### Display Webpage
- * Local: open **index.html** using your browser.
+ * Local: Download the repository and open **index.html** using your browser.
  * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
 
 ---
@@ -28,7 +28,7 @@ Sentiment analysis is the automated process of understanding an opinion about a 
 |5|change code to clean inputs if the user query is correct.|[#14](https://github.com/kavros/Sentiment-Analysis/issues/14) |
 |6|changed js code based on scenario changes.|[#11](https://github.com/kavros/Sentiment-Analysis/issues/11) |
 |7|changed confidence axis image since using one color seems to be  easier for the user to understand the confidence level. |[#5](https://github.com/kavros/Sentiment-Analysis/issues/5) |
-
+|8|added expanation section and tooltips on both axis in order to help user understand the chart|[#16](https://github.com/kavros/Sentiment-Analysis/issues/16)|
 ---
 ### Links for shared documents
 * Phase 2:
