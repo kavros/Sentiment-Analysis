@@ -4,7 +4,7 @@ Sentiment analysis is the automated process of understanding an opinion about a 
 
 ---
 ### Display Webpage
- * Local: open **index.html** using your browser.
+ * Local: Download the repository and open **index.html** using your browser.
  * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
 
 ---
