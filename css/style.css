@@ -41,7 +41,7 @@
     }
 }
 
-/*footer */
+/*Start of css code for footer */
 .footer{
     background-color:#334752;
     padding-top: 10px;
@@ -66,7 +66,6 @@
 
 .page-wrap {
   min-height: 100%;
-  /* equal to footer height */
   margin-bottom: -80px; 
 }
 
@@ -77,8 +76,9 @@
 .site-footer, .page-wrap:after {
   height: 80px; 
 }
-/*Search bar*/
+/*End of css code for footer */
 
+/*Start of css code for search bar*/
 #exTab1 .tab-content {
   font-family:Open Sans;
   background-color: #334752;
@@ -102,7 +102,9 @@ label{
 #exTab1 .nav-pills .active > a {
     background-color: #334752;
 }
+/*End of css code for search bar*/
 
+/*Start of css code for search button*/
 .btn-info
 {
     background-image: linear-gradient(to bottom, #334752 0%, #455F6e 51%, #999999 100%);
@@ -138,8 +140,10 @@ label{
     width: 100% !important;
   } 
 }
+/*End of css code for search button*/
 
-/*graph*/
+
+/*Start of css code for graphs section*/
 .row-m-t{
   margin-top : 20px
 }
@@ -196,3 +200,4 @@ label{
 .hidden{
   visibility: hidden;
 }
+/*End of css code for graphs section*/
