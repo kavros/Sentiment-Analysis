@@ -59,28 +59,32 @@
 			</div>
 			<!--End of the Navigation Bar -->	
 
-			<!--Start of graph -->
-			<div class="row hidden" id="graphRow">				
+			<!--Start of graph  section-->
+			<div class="row hidden" id="graphRow">	
 				<div class="col-md-10 col-xs-12 " id="mainGraph" >	
+					<!--Start of day/week/month/year tabs -->
 				    <ul  class="nav nav-pills">
-						<li><a  href="#1b" data-toggle="tab" >Day</a></li>
+						<li><a  href="#1b" data-toggle="tab" >Day</a></li>						
 						<li ><a href="#1b" data-toggle="tab">Week</a></li>
-						<li class="active"><a href="#2b" data-toggle="tab">Month</a></li>
+						<li class="active"><a href="#2b" data-toggle="tab">Month</a></li>	<!--Only month tab is supported by the  prototype-->
 						<li ><a href="#1b" data-toggle="tab">Year</a></li>
 					</ul>
-
+					<!--End of day/week/month/year tabs -->
 					
+
 					<div class="tab-content clearfix" >
+						<!-- Start of message for unsuported tabs -->
 						<div class="tab-pane fade" id="1b">
 							<div class="form-group row col-xs-12 col-md-12">
 								<div class="row col-md-12 col-xs-12">
 									<h3 style="color:white; text-align: center;">Action not supported for the prototype</h3>
 								
-								</div>
+								 </div>
 							</div>				          
 						</div>
+						<!-- End of message for unsuported tabs -->
 
-
+						<!--Start of main bubble chart-->
 						<div class="tab-pane fade in active"  id="2b">
 							<div class="text-right">
 								<button type="button" class="btn btn-info btn-sm hidden-xs hidden-sm" id="resize">
@@ -88,31 +92,31 @@
           						</button>
 							</div>
 			         		<div class="form-group ">
-								<div id="chartContainer" style="height: 190px; max-width: 700px; margin: 0px auto;"></div>			
+								<div id="chartContainer" style="height: 190px; max-width: 700px; margin: 0px auto;"></div>					<!--Holds canvas bubble chart-->
 								<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
 							</div>
 			      		</div>
+			      		<!--End of main bubble char-->
 			  		</div>
 			  		
 				</div>
-
+				<!-- Start of happiness axis -->
 		  		<div class="axis1 col-md-1 hidden-xs hidden-sm"  id="axis1"  data-toggle="tooltip" data-placement="top" title="The average sentiment value shown on y axis is defined on a scale from 0 to 10 with 0 being negative and 10 being positive.">					
 					<label id="label0">Positive</label>
 						<img src="images/happinessAxis.png" id="happinessImg" >
 					<label id="label1">Negative</label>
 				</div>
-				
+				<!-- End of happiness axis -->
+
+				<!-- Start of confidence axis -->
 				<div class="axis2 col-md-1 hidden-xs hidden-sm"  id="axis2" data-toggle="tooltip" data-placement="top" title="The colour of the bubble represents the confidence level of the average sentiment value. High-confidence is represented with dark blue and low-confidence with light blue.">					
 					<label id="label2">High Confidence</label>
 						<img src="images/confidence.png" id="confidenceImg">										
 					<label id="label3">Low Confidence</label>
 				</div>
-
-				
+				<!-- end of confidence axis -->				
 			</div>
-
-
-			<!--End of graph -->
+			<!--End of graph section -->
 			
 			<!-- Start of Search -->
 			<div class="row row-m-t">
@@ -128,14 +132,18 @@
 					          	<!-- start of simple search -->
 					          	<div class="form-group row col-xs-12 col-md-12">
 									<div class="row col-md-12 col-xs-12 ">
+										<!-- Start of search query input field-->
 										<div class="col-md-11 col-xs-10">
 											<label>search query*:</label>
 	    									<input id="keyword" class="form-control" type="text">
 										</div>
+										<!-- End of search query input field-->
 
+										<!-- Start of search button-->
 										<div class="col-md-1 col-xs-2 padding-search mobile-search-button-simple">
 											<button id="simple-search" class="btn btn-info" >Search</button> 
 										</div>
+										<!-- End of search button-->
 									</div>
 
 									<div class="row col-md-12 col-xs-12 ">
@@ -156,12 +164,14 @@
 											<label>search query*:</label>
 	    									<input class="form-control" id="advanced-keyword" type="text">
 										</div>
-										
+										<!--Start of location input field-->
 										<div class="col-md-2 col-xs-12 padding-location">
 											<label>location:</label>
 											<input id="location" class="form-control">
 										</div>
+										<!--End of location input field-->
 
+										<!--Start of start data and end data date pickers-->
 										<div class="col-md-2 col-xs-6 padding-dates">
 											<label>start date:</label>
 											<div class='input-group date' id='datetimepicker1'>
@@ -181,41 +191,43 @@
 										  		</span>
 											</div>
 										</div>
-									
+										<!--End of start data and end data date pickers-->
+
+										<!-- Start of search button-->
 										<div class="col-md-1 col-xs-12 padding-search ">
 											<button class="btn btn-info mobile-search-button-advanced" id='advanced-search'>Search</button> 
 										</div>
+										<!-- End of search button-->
 
+										<!--Start of datasources section-->
 										<div class="row col-md-12 col-xs-11">
 											<div class="col-xs-12 col-md-12">
-												
+													<!--Start of IMDb checkbox -->
 	    											<input type="checkbox" class="form-check-input" id="imdb">
 	    											<label class="form-check-label" for="imdb">IMDb</label>
-	    										
+	    											<!--End of IMDb checkbox -->
 
-	    										
+	    											<!--Start of Twitter checkbox-->
 	    											<input type="checkbox" class="form-check-input" id="twitter">
 	    											<label class="form-check-label" for="twitter">Twitter</label>
-	    										
+	    											<!--End of Twitter checkbox-->
 
-	    										
+	    											<!--Start of Trends checkbox-->
 													<input type="checkbox" class="form-check-input" id="trends">
 	    											<label class="form-check-label" for="trends">Trends</label>
+	    											<!--End of Trends checkbox-->
 	    										
 	    									</div>
 										</div>								
-
+										<!--End of datasources section-->
 										
 									</div>
-									
-									
-
+																		
 									<div class="row col-md-12 col-xs-12 padding-required">
 										<div class="col-xs-12 col-md-12">
 											<label>*required field</label>
 										</div>
 									</div>
-
 									
 								</div>
 								<!--end of advanced search -->
@@ -226,17 +238,16 @@
 				</div>
 			</div>
 			<!-- End of search -->
+
 			<!-- Start of explanation -->
-	<div class="row row-m-t hidden" id="explanation_text">
-		
-			
-				
+			<div class="row row-m-t hidden" id="explanation_text">
+				<!--Start of explanation tittle -->
 				<div class="col-md-12 col-xs-12 text-center">
 				<h2>How to interpret the data shown in the graph?</h2>
-				</div>
+				</div>			
+				<!--End of explanation tittle -->
 
-			
-			
+				<!--Start of explanation main content -->
 	    		<div class="col-md-4 col-xs-12">
 					<h3>Location</h3>
 					<p>Refers to the geographic region that the query is targeted at. Twitter offers tags to trace down tweets from specific regions and Google Trends delivers search volumes on a country basis. Default location is "Worldwide". Accepted locations are on a country basis only.</p>
@@ -253,31 +264,39 @@
 					<h3>Population</h3>
 					<p>By default, the quantity of input data is presented as population value on a scale from 1 to 100 representing relative values of maximum and minimum occurrences (i.e. percentage value). For IMDb, population contains the absolute number of movie reviews.</p>
 				</div>
+				<!--End of explanation main content -->
 			
-	</div>
+			</div>
 			<!-- End of explanation -->
 			
 			<!--Start of the Footer -->						
 			<div class="row row-m-t text-center">			
 				<div class="row row-m-t">			
-				<footer class="footer navbar-fixed-bottom site-footer">
+					<footer class="footer navbar-fixed-bottom site-footer">
+						<!--Start of footer phone section-->						
+						<div class="col-md-3 col-xs-6">
+							<i class="fa fa-phone" > </i> 
+							<i >+44 0131 656 0798</i>
+						</div>
+						<!--End of footer phone section-->						
 
-					<div class="col-md-3 col-xs-6">
-						<i class="fa fa-phone" > </i> 
-						<i >+44 0131 656 0798</i>
-					</div>
-					<div class="col-md-3 col-xs-6 social-icons">
-						<i class="fa fa-facebook"></i>
-						<i class="fa fa-twitter" ></i>
-						<i class="fa fa-google-plus" ></i>
-					</div>
-					<div class="col-md-3 col-xs-12"><span class="glyphicon glyphicon-envelope"></span> sentiment-analysis@gmail.com</div>
-					
-					<div class="col-md-3 col-xs-12">Sentiment analysis 2019 &copy - All rights reserved.</div>								
-				
+						<!--Start of footer social media section-->						
+						<div class="col-md-3 col-xs-6 social-icons">
+							<i class="fa fa-facebook"></i>
+							<i class="fa fa-twitter" ></i>
+							<i class="fa fa-google-plus" ></i>
+						</div>
+						<!--End of footer social media section-->
 
-				</footer>					
-			</div>					
+						<!--Start of footer email section-->						
+						<div class="col-md-3 col-xs-12"><span class="glyphicon glyphicon-envelope"></span> sentiment-analysis@gmail.com</div>
+						<!--End of footer email section-->						
+
+						<!--Start of copyrights section-->						
+						<div class="col-md-3 col-xs-12">Sentiment analysis 2019 &copy - All rights reserved.</div>												
+						<!--End of copyrights section-->
+					</footer>					
+				</div>					
 			</div>
 			<!--End of the Footer -->
 		</div>
