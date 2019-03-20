@@ -12,7 +12,7 @@ Please follow the instructions below if you wish to visit our webpage:
 
 
 ---
-### Inputs for Scenarios
+### Inputs For Scenarios
 | Scenario        | search query           | location  | start date| end date |Check box|
 |:-------------:|:-------------|:-----|:-----|:-----|:-----|
 | 1 | University of Edinburgh | | | | | |
