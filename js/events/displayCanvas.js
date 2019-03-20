@@ -1,7 +1,11 @@
 
 window.onload = function() {
-
-	var scenario_simple_search = [
+	/**
+	*  Data that our bubble chart uses for the prototype.
+	*  Our final product will not need the following data.
+	*  However, we need all of the followin data for the protoype.
+	*/
+	var scenario_simple_search = [//data for scenario 1
 		{ x: 1, y: 6.1, z: 75, c: 0.91, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "04/2018" },
 		{ x: 2, y: 5.9, z: 72, c: 0.86, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "05/2018" },
 		{ x: 3, y: 7.9, z: 55, c: 0.86, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "06/2018" },
@@ -9,14 +13,14 @@ window.onload = function() {
 		{ x: 5, y: 8.0, z: 68, c: 0.89, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "08/2018" },
 		{ x: 6, y: 8.2, z: 84, c: 0.79, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "09/2018" },
 		{ x: 7, y: 8.3, z: 81, c: 0.84, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "10/2018" },
-		{ x: 8, y: 8.0, z: 72, c: 0.9, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "11/2018" },
+		{ x: 8, y: 8.0, z: 72, c: 0.9,  l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "11/2018" },
 		{ x: 9, y: 7.7, z: 49, c: 0.87, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "12/2018" },
 		{ x: 10, y: 7.5, z: 72, c: 0.88, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "01/2019" },
 		{ x: 11, y: 6.7, z: 68, c: 0.79, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "02/2019" },
 		{ x: 12, y: 6.6, z: 62, c: 0.83, l: "Worldwide", name: "University of Edinburgh",color:"#00cd00",label: "03/2019" }
 	];
 	
-	var scenario_advanced_search_date = [
+	var scenario_advanced_search_date = [//data for scenario 2
 		{ x: 1, y: 5.3, z: 1, c: 0.89, l: "Worldwide", name: "Obama",color:"#00cd00",label: "01/2007" },
 		{ x: 2, y: 7.5, z: 2, c: 0.88, l: "Worldwide", name: "Obama",color:"#00cd00",label: "03/2007" },
 		{ x: 3, y: 7.2, z: 1, c: 0.91, l: "Worldwide", name: "Obama",color:"#00cd00",label: "05/2007" },
@@ -31,7 +35,7 @@ window.onload = function() {
 		{ x: 12, y: 8.1, z: 100, c: 0.88, l: "Worldwide", name: "Obama",color:"#00cd00",label: "11/2008" }
 	];
 	
-	var scenario_advanced_search_location = [
+	var scenario_advanced_search_location = [//data for scenario 3
 		{ x: 1, y: 6.9, z: 7, c: 0.88, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "04/2018" },
 		{ x: 2, y: 7.6, z: 10, c: 0.81, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "05/2018" },
 		{ x: 3, y: 7.9, z: 14, c: 0.79, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "06/2018" },
@@ -46,15 +50,8 @@ window.onload = function() {
 		{ x: 12, y: 7.7, z: 38, c: 0.91, l: "United Kingdom", name: "Brexit",color:"#00cd00",label: "03/2019" }
 	];
 	
-	var scenario_advanced_search_sources = [
-	/** the movie aired on October 24, 2018
-		{ x: 1, y: 4.1, z: 7, c: 4, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "04/2018" },
-		{ x: 2, y: 4.9, z: 4, c: 5, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "05/2018" },
-		{ x: 3, y: 5.4, z: 4, c: 8, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "06/2018" },
-		{ x: 4, y: 9, z: 4, c: 5, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "07/2018" },
-		{ x: 5, y: 9, z: 4, c: 9, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "08/2018" }, 
-		{ x: 6, y: 9, z: 0, c: 1.00, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "09/2018" },
-	*/
+	var scenario_advanced_search_sources = [//data for scenario 4
+	
 		{ x: 7, y: 8.4, z: 9614, c: 1.00, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "10/2018" },
 		{ x: 8, y: 8.4, z: 80132, c: 1.00, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "11/2018" },
 		{ x: 9, y: 8.4, z: 128933, c: 1.00, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "12/2018" },
@@ -63,7 +60,7 @@ window.onload = function() {
 		{ x: 12, y: 8.1, z: 285685, c: 1.00, l: "Worldwide", name: "Bohemian Rhapsody",color:"#00cd00",label: "03/2019" }
 	];
 	
-	var scenario_advanced_search_combination = [
+	var scenario_advanced_search_combination = [//data for scenario 5
 		{ x: 1, y: 6.5, z: 2, c: 0.15, l: "France", name: "Charlie Hebdo",color:"#00cd00",label: "01/2012" },
 		{ x: 2, y: 6.7, z: 1, c: 0.24, l: "France", name: "Charlie Hebdo",color:"#00cd00",label: "02/2012" },
 		{ x: 3, y: 6.1, z: 1, c: 0.09, l: "France", name: "Charlie Hebdo",color:"#00cd00",label: "03/2012" },
@@ -78,9 +75,10 @@ window.onload = function() {
 		{ x: 12, y: 3.5, z: 2, c: 0.79, l: "France", name: "Charlie Hebdo",color:"#00cd00",label: "12/2012" }
 	];
 	
-
+	/**
+	* Decleration for Canvas JS bubble chart which we use to display the sentiment analysis results
+	*/
 	var options =  {
-		//backgroundColor: "#DDDDDD",
 		animationEnabled: true,
 		zoomEnabled: true,
 		theme: "light2",
@@ -104,59 +102,62 @@ window.onload = function() {
 			zValueFormatString: "#0",
 			toolTipContent: "<b>{name}</b><br/>Location: {l} <br/>Confidence Level: {c}<br/> Average Sentiment value: {y}<br/> Population: {z}",
 			dataPoints: [
-				{ c:2, x: 1, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "01/2018" },
-				{ c:2, x: 2, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "02/2018" },
-				{ c:2, x: 3, y: -9.2, z: 1,  name: "Romania",  color:"#92A1CF",label: "03/2018" },
-				{ c:2, x: 4, y: 9.1, z: 7,   name: "Bulgaria", color:"#00cd00",label: "04/2018" },
-				{ c:2, x: 5, y: 15.5, z: 78, name: "Turkey",   color:"#008100 ",label: "05/2018" },
-				{ c:2, x: 7, y: 11.2, z: 5,  name: "Norway",   color:"#00cd00",label: "06/2018" },
-				{ c:2, x: 6, y: 11.2, z: 5,  name: "Norway",   color:"#00cd00",label: "07/2018" },
-				{ c:2, x: 8, y: 4.7, z: 46,  name: "Obama",    color:"#2A52BE",label: "08/2018"},
-				{ c:2, x: 9, y: 10.8, z: 11, name: "Belgium",  color:"#00cd00",label: "09/2018" },
-				{ c:2, x: 10, y: 8.8, z: 21, name: "Belgium",  color:"#00cd00" ,label: "10/2018"},
-				{ c:2, x: 11, y: 8.6, z: 10, name: "Greece",   color:"#00cd00",label: "11/2018" },			
-				{ c:2, x: 12, y: 9, z: 4,    name: "Croatia",   color:"#00cd00",label: "12/2018" }
+				
 				
 			]
 		}]
 	};
 
+	/**
+	* Handles user input for simple search tab.
+	*/
 	$("#simple-search").click(function () {
 
 		if($('#keyword').val().toLowerCase().trim() === 'university of edinburgh')
 		{
+			// add colors to the bubbles based on confidence values of the data
 			initConfidenceColor(scenario_simple_search);
 			initConfidenceColor(scenario_advanced_search_location);
 			initConfidenceColor(scenario_advanced_search_sources);
 			initConfidenceColor(scenario_advanced_search_combination);
 			initConfidenceColor(scenario_advanced_search_date);
 
+			// rendering canvas js-bubble chart based on the provided data
 			displayGraphSection(options);
 			options.data[0].dataPoints = scenario_simple_search;
 			$("#chartContainer").CanvasJSChart(options);	
+
+			// reset input fileds
 			resetInputs();		
 		}
 		else
 		{
+			// shows a warning notification on the screen in case which the query is not supported
 			showNotification();
 		}
 		
 	});
 
+	/**
+	* Handles user input for advanced search tab.
+	*/
 	$("#advanced-search").click(function () {
 		
+		// add colors to the bubbles based on confidence values of the data
 		initConfidenceColor(scenario_simple_search);
 		initConfidenceColor(scenario_advanced_search_location);
 		initConfidenceColor(scenario_advanced_search_sources);
 		initConfidenceColor(scenario_advanced_search_combination);
 		initConfidenceColor(scenario_advanced_search_date);	
 		
+		// generates an alert box if the user click search without selecting a data source.
 		if( !$('#twitter').is(":checked") &&  !$('#imdb').is(":checked") && !$('#trends').is(":checked"))
 		{
 			alert("Please select data source!");
 			return;
 		}
 
+		//renders bubble chart with the appropriate data based on the user inputs
 		if(
 			($('#advanced-keyword').val().toLowerCase().trim() === 'brexit')
 			&& ($('#location').val().toLowerCase().trim() === 'united kingdom')
@@ -215,6 +216,7 @@ window.onload = function() {
 		}
 		else
 		{
+			// shows a warning notification on the screen in case which the query is not supported
 			showNotification();
 		}
 
@@ -223,6 +225,9 @@ window.onload = function() {
 
 }
 
+/**
+* If the user enters a supported search query we use this function to clear the input fields.
+*/
 function resetInputs()
 {
 	$('#advanced-keyword').val('');
@@ -233,6 +238,9 @@ function resetInputs()
 	
 }
 
+/**
+* We use this function to initialize the color of the bubble based on the confidence value(c) of the data.
+*/
 function initConfidenceColor(array)
 {
 	var colors = ['#D8F1FF','#C5EAFF','#B1E2FF','#9EDBFF','#8AD4FF','#76CDFF','#63C5FF','#4FBEFF','#3CB7FF','#01A1FF']
@@ -251,7 +259,10 @@ function initConfidenceColor(array)
 		array[i].color = colors[colorIndex];
 	}
 }
-
+/**
+* Displays bubble chart when the user enters a correct query
+* This function will be used on the final product also.
+*/
 function displayGraphSection(options)
 {
 	if($('#graphRow').hasClass("row hidden"))
@@ -261,9 +272,12 @@ function displayGraphSection(options)
 	}
 	
 	$('#explanation_text').removeClass("hidden").addClass("explanation row row-m-t");
-
 }
 
+/**
+* Generates a notification to inform the user that the query does not supported from the prototype.
+* This function will not used on the final product.
+*/
 function showNotification()
 {
 	$(".span4").removeClass("hidden");
@@ -271,7 +285,9 @@ function showNotification()
 	$(".alert").delay(5000).addClass("in").fadeOut(5000);
 }
 
-//adds functionality for hiding and displaying the graph
+/**
+* Hides happines and confidence axis when the user clicks on the button with the arrows.
+*/
 $(function() {
 	$('#resize').click(function()
   	{
