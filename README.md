@@ -1,10 +1,10 @@
 
 ## Overview
-Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the solutions are presented in the section named Solutions for Scenarios below.
+Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the inputs are presented in the section named Inputs for Scenarios below.
 
 ---
 ### Display Webpage 
-Our **prototype supports specific search queries** so if the user enters a search query that we don't support, we generate a warning message to inform the user. If you wish to display output please enter **University of Edinburgh** in the search query input field. You can find all the supported queries in the section solutions for scenarios.
+Our **prototype supports specific search queries** so if the user enters a search query that we don't support, we generate a warning message to inform the user. If you wish to display output please enter **University of Edinburgh** in the search query input field. You can find all the supported queries in the section inputs for scenarios.
 
 Please follow the instructions below if you wish to visit our webpage:
  * Local: Download the repository and open **index.html** using your browser.
@@ -12,7 +12,7 @@ Please follow the instructions below if you wish to visit our webpage:
 
 
 ---
-### Solutions for Scenarios
+### Inputs For Scenarios
 | Scenario        | search query           | location  | start date| end date |Check box|
 |:-------------:|:-------------|:-----|:-----|:-----|:-----|
 | 1 | University of Edinburgh | | | | | |
