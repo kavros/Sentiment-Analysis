@@ -225,18 +225,7 @@ window.onload = function() {
 
 }
 
-/**
-* If the user enters a supported search query we use this function to clear the input fields.
-*/
-function resetInputs()
-{
-	$('#advanced-keyword').val('');
-	$("#datetimepicker1").find("input").val('');
-	$("#datetimepicker2").find("input").val('');
-	$('#location').val('');
-	$('#keyword').val('');
-	
-}
+
 
 /**
 * We use this function to initialize the color of the bubble based on the confidence value(c) of the data.
@@ -274,16 +263,6 @@ function displayGraphSection(options)
 	$('#explanation_text').removeClass("hidden").addClass("explanation row row-m-t");
 }
 
-/**
-* Generates a notification to inform the user that the query does not supported from the prototype.
-* This function will not used on the final product.
-*/
-function showNotification()
-{
-	$(".span4").removeClass("hidden");
-	$(".alert").removeClass("in").show();
-	$(".alert").delay(5000).addClass("in").fadeOut(5000);
-}
 
 /**
 * Hides happines and confidence axis when the user clicks on the button with the arrows.
