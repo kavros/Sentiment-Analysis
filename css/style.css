@@ -1,3 +1,7 @@
+body {
+    font-family: Open Sans, sans-serif;
+}
+
 /* navigation bar */
 .navigation
 {
@@ -15,7 +19,7 @@
 
 .navbar-default .navbar-nav>li>a.navItem
 {
-    font-family: Open Sans;
+    /* font-family: Open Sans; */
     font-size: 20px;
     font-weight: bold;
     color:white;
@@ -49,7 +53,7 @@
     padding-left: 10px;
     padding-bottom: 30px;
     
-    font-family: Open Sans;
+    /* font-family: Open Sans; */
     font-size: 15px;
     font-weight: bold;
     color:white;  
@@ -80,7 +84,7 @@
 
 /*Start of css code for search bar*/
 #exTab1 .tab-content {
-  font-family:Open Sans;
+  /* font-family: Open Sans; */
   background-color: #334752;
 }
 label{
@@ -95,7 +99,7 @@ label{
   color:white;
   font-weight: bold;
   font-size: 15px;
-  font-family:Open Sans;
+  /* font-family: Open Sans; */
 
 }
 
@@ -177,7 +181,7 @@ label{
 }
 
 #mainGraph .tab-content {
-  font-family:Open Sans;
+  /* font-family: Open Sans; */
   background-color: #334752;
 }
 
@@ -188,7 +192,7 @@ label{
   color:white;
   font-weight: bold;
   font-size: 15px;
-  font-family:Open Sans;
+  /* font-family: Open Sans; */
 
 }
 
