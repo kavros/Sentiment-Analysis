@@ -1,12 +1,12 @@
 
 ## Overview
-Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which developed within software development group coursework. The system support 5 different queries. The supported queries are based on the usability tests and the inputs are presented in the section named Inputs for Scenarios below.
+Sentiment analysis is the automated process of understanding an opinion about a given subject. This repository is **a prototype for a sentiment analysis system** which was developed within software development group coursework. The system supports 5 different queries. The supported queries are based on the usability tests and the inputs are presented in the section named *Inputs for Scenarios* below.
 
 ---
 ### Display Webpage 
-Our **prototype supports specific search queries** so if the user enters a search query that we don't support, we generate a warning message to inform the user. If you wish to display output please enter **University of Edinburgh** in the search query input field. You can find all the supported queries in the section inputs for scenarios.
+Our **prototype supports specific search queries**: If the user enters a search query that the prototype doesn't support, we generate a warning message to inform the user. If you wish to display output from one of the scenarios please enter **University of Edinburgh** in the search query input field. You can find all the supported queries in the section *Inputs for scenarios*.
 
-Please follow the instructions below if you wish to visit our webpage:
+Please follow the instructions below to access the prototype:
  * Local: Download the repository and open **index.html** using your browser.
  * Web: **[Sentiment-Analysis](http://alexiskavroulakis.com/Sentiment-Analysis/)**
 
