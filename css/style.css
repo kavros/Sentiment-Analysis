@@ -108,7 +108,7 @@ label{
 }
 
 /*red asterisk indicating required field*/
-.form-group.required .control-label:after {
+.form-group.required .control-label:after, .form-group.required .before-label:before {
     content: "*";
     color: red;
 }
