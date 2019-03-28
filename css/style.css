@@ -106,6 +106,13 @@ label{
 #exTab1 .nav-pills .active > a {
     background-color: #334752;
 }
+
+/*red asterisk indicating required field*/
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
 /*End of css code for search bar*/
 
 /*Start of css code for search button*/
